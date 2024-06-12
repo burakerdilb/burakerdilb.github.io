@@ -60,9 +60,9 @@ Licenses & Certifications
 * [Supervised Machine Learning: Regression and Classification - DeepLearning.AI](https://www.coursera.org/account/accomplishments/certificate/VVE8C82NPEFM)
 * [Machine Learning Specialization - DeepLearning.AI](https://www.coursera.org/account/accomplishments/specialization/certificate/UAG63VEU6KCS)
 * [Advanced Learning Algorithms - DeepLearning.AI](https://www.coursera.org/account/accomplishments/certificate/DXXWUKZ5RNKU)
-* [Machine Learning - Turkish Aerospace]()
-* [Systems Engineering, Basic Concepts - Turkish Aerospace]()
-* [Basic Airworthiness - Turkish Aerospace]()
+* [Machine Learning - Turkish Aerospace](tusas_ml.pdf)
+* [Systems Engineering, Basic Concepts - Turkish Aerospace](tusas_system.pdf)
+* [Basic Airworthiness - Turkish Aerospace](tusas_air.pdf)
 
 Skills
 ======
