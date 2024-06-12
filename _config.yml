@@ -12,7 +12,7 @@ title                    : "Burak Erdil Biçer"
 title_separator          : "-"
 name                     : &name "Burak Erdil Biçer"
 description              : &description "ITU Student"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://burakerdilb.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "burakerdilb/burakerdilb.github.io"
 
@@ -21,7 +21,7 @@ repository               : "burakerdilb/burakerdilb.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Burak Erdil Biçer"
   pronouns         : # example: "she/her"  
   bio              : "ITU Electronics and Communications Engineering & Aeronautical Engineering Student | Researcher at Bountenna"
