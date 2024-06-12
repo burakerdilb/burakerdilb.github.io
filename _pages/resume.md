@@ -29,20 +29,26 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Undergraduate Research Assistant (Nov. 2022 - Present)
+  * Bountenna Antennas & Propagation Research Lab.
+  * Duties includes: Antenna, biodegradable sensor and phantom design
+  * Software used: Ansys HFSS, CST
+  * Supervisor: Assoc. Prof. Sema Dumanlı-Oktar
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Machine Learning Engineering Intern (Aug. 2023 - Sep. 2023)
+  * Baykar Technologies
+  * Duties included: Utilizing computer vision to improve the efficiency of the production line
+  * Software/Languages used: Python, OpenCV, TensorFlow
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Test Engineering Intern (Jun. 2023 - Jul. 2023)
+  * Aselsan
+  * Duties included: Creating UI to customize Lora E32 communication module
+  * Software/Languages used: C#
+ 
+* Long-Term Software Engineering Intern (Nov. 2022 - May 2023) 
+  * Turkish Aerospace
+  * Duties included: Developing bootcamp applications
+  * Software/Languages used: C, C++
   
 Skills
 ======
@@ -56,18 +62,6 @@ Skills
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
