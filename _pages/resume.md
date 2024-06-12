@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-Printable version: [Burak Erdil Biçer Resume](resume_120624.pdf)
+[Resume PDF](resume_120624.pdf)
 
 {% include base_path %}
 
