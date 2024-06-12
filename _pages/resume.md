@@ -29,7 +29,7 @@ Education
     - Fluid Mechanics
     - Comp. Aid. Design with CATIA
 
-Work experience
+Work Experience
 ======
 * **Undergraduate Research Assistant** *(Nov. 2022 - Present)*
   * Bountenna Antennas & Propagation Research Lab.
@@ -51,15 +51,24 @@ Work experience
   * Turkish Aerospace
   * Duties included: Developing bootcamp applications
   * Software/Languages used: C, C++
-  
+
+Licenses & Certifications
+======
+* [Introduction to Machine Learning - Global AI Hub](https://globalaihub.com/certificate-share/eyJ1c2VyLWlkIjo4MjQzNCwiY291cnNlLWlkIjoxMTQ0NjUsImNlcnQtaWQiOiIxMTQ2OTcifQ==)
+* [Introduction to Deep Learning - Global AI Hub](https://globalaihub.com/certificate-share/eyJ1c2VyLWlkIjo4MjQzNCwiY291cnNlLWlkIjoxMTUyMTksImNlcnQtaWQiOiIxMTUzODgifQ==)
+* [Unsupervised Learning, Recommenders, Reinforcement Learning - DeepLearning.AI](https://www.coursera.org/account/accomplishments/certificate/YLUJHM9UHYBW)
+* [Supervised Machine Learning: Regression and Classification - DeepLearning.AI](https://www.coursera.org/account/accomplishments/certificate/VVE8C82NPEFM)
+* [Machine Learning Specialization - DeepLearning.AI](https://www.coursera.org/account/accomplishments/specialization/certificate/UAG63VEU6KCS)
+* [Advanced Learning Algorithms - DeepLearning.AI](https://www.coursera.org/account/accomplishments/certificate/DXXWUKZ5RNKU)
+* [Machine Learning - Turkish Aerospace]()
+* [Systems Engineering, Basic Concepts - Turkish Aerospace]()
+* [Basic Airworthiness - Turkish Aerospace]()
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: Python, C, C++, C#, MATLAB
+* Software Tools: LTspice, ANSYS HFSS, CST, CATIA, MS Office
+* Languages: Fluent English and Turkish, Beginner German and French
   
 Activities
 ======
