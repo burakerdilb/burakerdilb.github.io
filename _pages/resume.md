@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-[Resume PDF](resume_120624.pdf)
+[Resume PDF](resume_130624.pdf)
 
 {% include base_path %}
 
@@ -60,13 +60,14 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
-Service and leadership
+Activities
 ======
-* Currently signed in to 43 different slack teams
+* **Editor in Chief** *(Sep. 2022 – Jun. 2024)*
+  * arı24 Student Media (largest student media initiative in Turkey)
+
+%Publications
+%======
+%  <ul>{% for post in site.publications reversed %}
+%    {% include archive-single-cv.html %}
+%  {% endfor %}</ul>
