@@ -22,30 +22,30 @@ Education
     - Data Structures 
 * B.S. in Aeronautical Engineering, Istanbul Technical University, 2026 
   * GPA: 3.35
-  * * Relevant Courses:
+  * Relevant Courses:
     - Compressible Aerodynamics
     - Fluid Mechanics
     - Comp. Aid. Design with CATIA
 
 Work experience
 ======
-* Undergraduate Research Assistant (Nov. 2022 - Present)
+* **Undergraduate Research Assistant** (Nov. 2022 - Present)
   * Bountenna Antennas & Propagation Research Lab.
   * Duties includes: Antenna, biodegradable sensor and phantom design
   * Software used: Ansys HFSS, CST
   * Supervisor: Assoc. Prof. Sema Dumanlı-Oktar
 
-* Machine Learning Engineering Intern (Aug. 2023 - Sep. 2023)
+* **Machine Learning Engineering Intern** (Aug. 2023 - Sep. 2023)
   * Baykar Technologies
   * Duties included: Utilizing computer vision to improve the efficiency of the production line
   * Software/Languages used: Python, OpenCV, TensorFlow
 
-* Test Engineering Intern (Jun. 2023 - Jul. 2023)
+* **Test Engineering Intern** (Jun. 2023 - Jul. 2023)
   * Aselsan
   * Duties included: Creating UI to customize Lora E32 communication module
   * Software/Languages used: C#
  
-* Long-Term Software Engineering Intern (Nov. 2022 - May 2023) 
+* **Long-Term Software Engineering Intern** (Nov. 2022 - May 2023) 
   * Turkish Aerospace
   * Duties included: Developing bootcamp applications
   * Software/Languages used: C, C++
