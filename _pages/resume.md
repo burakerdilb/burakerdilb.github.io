@@ -11,9 +11,21 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Electronics and Communications Engineering, Istanbul Technical University, 2025
+  * GPA: 3.52
+  * Relevant Courses:
+    - Antennas
+    - Microwave Engineering
+    - ML for Signal Processing
+    - Artificial Neural Networks
+    - Comp. Aid. Devices in Medicine
+    - Data Structures 
+* B.S. in Aeronautical Engineering, Istanbul Technical University, 2026 
+  * GPA: 3.35
+  * * Relevant Courses:
+    - Compressible Aerodynamics
+    - Fluid Mechanics
+    - Comp. Aid. Design with CATIA
 
 Work experience
 ======
