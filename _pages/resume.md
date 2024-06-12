@@ -65,9 +65,12 @@ Activities
 ======
 * **Editor in Chief** *(Sep. 2022 – Jun. 2024)*
   * arı24 Student Media (largest student media initiative in Turkey)
+  * Organized all editorial content
+  * Arranged sponsorship deals with student clubs
+ 
+* **Coordinator/Competitor** *(Aug. 2017 – Sep. 2021)*
+  * World Cube Association
+  * Organized and competed in the official WCA competitions all around the world
+  * Achieved success in international competitions
+  * Broke many Turkish national records including the most famous 3x3 Rubik's Cube.   
 
-%Publications
-%======
-%  <ul>{% for post in site.publications reversed %}
-%    {% include archive-single-cv.html %}
-%  {% endfor %}</ul>
