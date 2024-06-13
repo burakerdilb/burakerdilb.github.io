@@ -70,7 +70,7 @@ Skills
 * Software Tools: LTspice, ANSYS HFSS, CST, CATIA, MS Office
 * Languages: Fluent English and Turkish, Beginner German and French
   
-Activities
+Activities & Volunteer Experience
 ======
 * **Editor in Chief** *(Sep. 2022 – Jun. 2024)*
   * arı24 Student Media (largest student media initiative in Turkey)
@@ -81,5 +81,22 @@ Activities
   * World Cube Association
   * Organized and competed in the official WCA competitions all around the world
   * Achieved success in international competitions
-  * Broke many Turkish national records including the most famous 3x3 Rubik's Cube.   
+  * Broke many Turkish national records including the most famous 3x3 Rubik's Cube
+    
+* **Member/Organizer** *(Aug. 2020 - Aug. 2022)*
+  * İTÜ IEEE Student Branch
+  * Organized ITU Technology Conference which is the biggest tech event in ITU
+  * Arranged sponsorship deals with related companies
+ 
+* **Student Volunteer** *(Mar 2018 - May 2019)*
+  * Türkiye Zeka Vakfı (Intelligence Foundation of Turkey)
+  * Attended the Intelligence Competition
+  * Assisted in organizing student competitors within the school
+ 
+* **Competitor** *(Sep 2014 - Aug 2016)*
+  * Bilim Kahramanları Derneği
+  * Competed in the FIRST LEGO League competition for 2 years
+ 
+Achievements & Awards 
+======
 
