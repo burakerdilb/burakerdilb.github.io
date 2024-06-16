@@ -1,8 +1,8 @@
 ---
 title: "Electronics and Communications Engineering Courses"
 collection: teaching
-teaching_type: "B.S."
-institution: "Istanbul Technical University"
+type: "B.S."
+venue: "Istanbul Technical University"
 date: 2024-06-15
 permalink: /courses/ehb-courses
 ---
