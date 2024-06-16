@@ -1,8 +1,8 @@
 ---
 title: "Aeronautical Engineering Courses"
 collection: teaching
-teaching_type: "B.S."
-institution: "Istanbul Technical University"
+type: "B.S."
+venue: "Istanbul Technical University"
 date: 2024-06-14
 permalink: /courses/uck-courses
 ---
