@@ -4,6 +4,9 @@ collection: teaching
 date: 2024-06-15
 permalink: /courses/ehb-courses
 ---
+The courses I took as part of the Electronics and Communication Engineering are listed below.
+
+
 * Mathematics I (MAT 103E)
 * Mathematics II (MAT 104E)
 * Probability and Statistics (MAT 271E)
@@ -37,15 +40,17 @@ permalink: /courses/ehb-courses
 * Computer Aided Devices in Medicine (EHB 440E)
 * Artificial Neural Networks (EHB 420E)
 
+* Materials Science (MAL 201E)
+* Modern Physics (FIZ 201E)
+* Dynamics (DNK 201E)
+* Control Systems (KON 317E)
+* Random Signals and Noise (EHB 334E)
+
 * French I (FRA 101)
 * Italian I (ITA 101)
 * Economics (EKO 201E)
 * International Relations and Globalization (ITB 094E)
 * The Modern Middle East (ITB 214E)
   
-* Materials Science (MAL 201E)
-* Modern Physics (FIZ 201E)
-* Dynamics (DNK 201E)
-* Control Systems (KON 317E)
-* Random Signals and Noise (EHB 334E)
+
   
