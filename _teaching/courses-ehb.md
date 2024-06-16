@@ -1,6 +1,7 @@
 ---
 title: "Electronics and Communications Engineering Courses"
 collection: teaching
+date: 2024-06-15
 permalink: /courses/ehb-courses
 ---
 
