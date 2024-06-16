@@ -4,14 +4,13 @@ collection: teaching
 date: 2024-06-14
 permalink: /courses/uck-courses
 ---
+* Aerospace Materials
+* Statics
+* Computer Aided Drafting with CATIA
+* Thermodynamics
+* Fluid Dynamics
+* Strength of Materials
+* Measurement Techniques
+* Compressible Aerodynamics
+* Experimental Engineering
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
