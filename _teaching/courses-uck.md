@@ -3,7 +3,6 @@ title: "Aeronautical Engineering Courses"
 collection: teaching
 type: "B.S."
 venue: "Istanbul Technical University"
-date: 2024-06-14
 permalink: /courses/uck-courses
 ---
 The courses I took as part of the Aeronautical Engineering are listed.
