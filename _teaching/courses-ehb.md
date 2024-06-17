@@ -10,7 +10,7 @@ The courses I took as part of the Electronics and Communication Engineering are 
 
 
 * [Mathematics I (MAT 103E)](https://mega.nz/folder/3TZ0BAhZ#ODIV8tvpAg8I-DaFU_txmw)
-* Mathematics II (MAT 104E)
+* [Mathematics II (MAT 104E)](https://mega.nz/folder/PagCSKLC#t1CBd2vGOO95MOSbqsbDLw)
 * Probability and Statistics (MAT 271E)
 * [Linear Algebra (MAT 281E)](https://mega.nz/folder/zSwymDyC#Ajjo8xdsPmJU1Cd7FzSpWg)
 * [Engineering Mathematics (MAT 210E)](https://mega.nz/folder/7OpHVZ4C#i-cg_am8Ipgs4Q0lAbehcQ)
