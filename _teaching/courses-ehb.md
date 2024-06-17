@@ -9,7 +9,7 @@ permalink: /courses/ehb-courses
 The courses I took as part of the Electronics and Communication Engineering are listed.
 
 
-* Mathematics I (MAT 103E)
+* [Mathematics I (MAT 103E)](https://mega.nz/folder/3TZ0BAhZ#ODIV8tvpAg8I-DaFU_txmw)
 * Mathematics II (MAT 104E)
 * Probability and Statistics (MAT 271E)
 * Linear Algebra (MAT 281E)
