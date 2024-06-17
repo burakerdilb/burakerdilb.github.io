@@ -48,7 +48,7 @@ The courses I took as part of the Electronics and Communication Engineering are 
 * Control Systems (KON 317E)
 * Random Signals and Noise (EHB 334E)
 
-* French I (FRA 101)
+* [French I (FRA 101)](https://mega.nz/folder/yOY0XCKK#9qw8h-GkPVzsK1iwwJHRIw)
 * Italian I (ITA 101)
 * Economics (EKO 201E)
 * International Relations and Globalization (ITB 094E)
