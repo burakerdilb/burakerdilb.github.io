@@ -42,7 +42,7 @@ The courses I took as part of the Electronics and Communication Engineering are 
 * Computer Aided Devices in Medicine (EHB 440E)
 * Artificial Neural Networks (EHB 420E)
 
-* Materials Science (MAL 201E)
+* [Materials Science (MAL 201E)](https://mega.nz/folder/KSIVkKYY#pjvxS4wSny5z72SgU87fZg)
 * Modern Physics (FIZ 201E)
 * Dynamics (DNK 201E)
 * Control Systems (KON 317E)
