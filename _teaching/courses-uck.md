@@ -11,6 +11,7 @@ The courses I took as part of the Aeronautical Engineering are listed.
 
 * Aerospace Materials (UCK 215E)
 * Statics (STA 201E)
+* Dynamics (DNK 201E)
 * Computer Aided Drafting with CATIA (UZB 112E)
 * Thermodynamics (UCK 207E)
 * Fluid Dynamics (AKM 219E)
