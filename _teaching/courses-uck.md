@@ -9,14 +9,14 @@ permalink: /courses/uck-courses
 The courses I took as part of the Aeronautical Engineering are listed.
 
 
-* Aerospace Materials (UCK 215E)
-* Statics (STA 201E)
+* [Aerospace Materials (UCK 215E)](https://mega.nz/folder/OCxByTqY#-FIthJuIvVNyr2lWwxBPKg)
+* [Statics (STA 201E)](https://mega.nz/folder/DTQXjDCC#Qbluhz09UqVHigRax0TWKQ)
 * Dynamics (DNK 201E)
-* Computer Aided Drafting with CATIA (UZB 112E)
+* [Computer Aided Drafting with CATIA (UZB 112E)](https://mega.nz/folder/rLZwAQIS#P15kYQHiSj84S2-iiMmMUA)
 * Thermodynamics (UCK 207E)
-* Fluid Dynamics (AKM 219E)
-* Strength of Materials (MUK 211E)
-* Measurement Techniques (UZB 301E)
-* Compressible Aerodynamics (UZB 310E)
-* Experimental Engineering (UCK 304E)
+* [Fluid Dynamics (AKM 219E)]()
+* [Strength of Materials (MUK 211E)](https://mega.nz/folder/CaIQVayS#Ad4P0NVrQVCFGiPk8fCGIg)
+* [Measurement Techniques (UZB 301E)](https://mega.nz/folder/CPRWxK4T#kn926u2UAOreN9O2vKndhQ)
+* [Compressible Aerodynamics (UZB 310E)]()
+* [Experimental Engineering (UCK 304E)]()
 
