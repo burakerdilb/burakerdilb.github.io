@@ -21,7 +21,7 @@ The courses I took as part of the Electronics and Communication Engineering are 
 * General Chemistry I (KIM 101E)
   
 * [Basics of Electrical Circuits (EHB 211E)](https://mega.nz/folder/2KY1HTaD#zna9M00ENa5BoGTjKN4BCQ)
-* [Circuit and System Analysis (EEF 232E)]()
+* [Circuit and System Analysis (EEF 232E)](https://mega.nz/folder/LGRWySoD#DyrdUYLYau8N-J9MKMQRpA)
 * [Electronics I (EHB 231E)](https://mega.nz/folder/KDARGIwA#TnUUQ0ca8YDEG4fgtvS5mg)
 * [Electronics II (EHB 262E)](https://mega.nz/folder/eWQnkA5R#qgrAGKsZtKQc6yFJdPmIFA)
 * [Analog Electronic Circuits (EHB 335E)]()
@@ -38,15 +38,15 @@ The courses I took as part of the Electronics and Communication Engineering are 
 
 * [Introduction to C (EEF 110E)](https://mega.nz/folder/LOgVRIJZ#6IDHBiKeIzDQyEpNrcqz4w)
 * [Data Structures & Programming (EHB 208E)](https://mega.nz/folder/SDhwDQTL#Zd6TPt2wC1HvOZfBgzwLSg)
-* [Machine Learning for Signal Processing (EHB 328E)]()
-* [Computer Aided Devices in Medicine (EHB 440E)]()
+* [Machine Learning for Signal Processing (EHB 328E)](https://mega.nz/folder/OSYGWayS#5MttErHUjr8eg5swyS41ig)
+* [Computer Aided Devices in Medicine (EHB 440E)](https://mega.nz/folder/rehiVJwZ#_SFivM3HhZLe1AvshJm65w)
 * [Artificial Neural Networks (EHB 420E)]()
 
 * [Materials Science (MAL 201E)](https://mega.nz/folder/KSIVkKYY#pjvxS4wSny5z72SgU87fZg)
 * [Modern Physics (FIZ 201E)](https://mega.nz/folder/DWInjDCL#OZwCy0jAyDIO6vBiTJ0LgQ)
 * [Dynamics (DNK 201E)]()
-* [Control Systems (KON 317E)]()
-* [Random Signals and Noise (EHB 334E)]()
+* [Control Systems (KON 317E)](https://mega.nz/folder/zKYnmSqL#dt6gqHzzSWBOF8J7ijpNLA)
+* [Random Signals and Noise (EHB 334E)](https://mega.nz/folder/yahFnZpS#5l71cgEKykelAVE3oiUfEg)
 
 * [French I (FRA 101)](https://mega.nz/folder/yOY0XCKK#9qw8h-GkPVzsK1iwwJHRIw)
 * [Italian I (ITA 101)](https://mega.nz/folder/raIUzbZI#nZI6PZG23WUicAlR4i3KHg)
