@@ -44,7 +44,6 @@ The courses I took as part of the Electronics and Communication Engineering are 
 
 * [Materials Science (MAL 201E)](https://mega.nz/folder/KSIVkKYY#pjvxS4wSny5z72SgU87fZg)
 * [Modern Physics (FIZ 201E)](https://mega.nz/folder/DWInjDCL#OZwCy0jAyDIO6vBiTJ0LgQ)
-* Dynamics (DNK 201E)
 * [Control Systems (KON 317E)](https://mega.nz/folder/zKYnmSqL#dt6gqHzzSWBOF8J7ijpNLA)
 * [Random Signals and Noise (EHB 334E)](https://mega.nz/folder/yahFnZpS#5l71cgEKykelAVE3oiUfEg)
 
