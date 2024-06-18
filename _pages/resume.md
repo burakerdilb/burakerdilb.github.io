@@ -7,14 +7,14 @@ redirect_from:
   - /resume
 ---
 
-[Resume PDF](resume_130624.pdf)
+[Resume PDF](resume_180624.pdf)
 
 {% include base_path %}
 
 Education
 ======
 * B.S. in **Electronics and Communications Engineering**, Istanbul Technical University, 2025
-  * GPA: 3.52
+  * GPA: 3.55
   * Relevant Courses:
     - Antennas
     - Microwave Engineering
@@ -23,7 +23,7 @@ Education
     - Comp. Aid. Devices in Medicine
     - Data Structures 
 * B.S. in **Aeronautical Engineering**, Istanbul Technical University, 2026 
-  * GPA: 3.35
+  * GPA: 3.38
   * Relevant Courses:
     - Compressible Aerodynamics
     - Fluid Mechanics
