@@ -40,11 +40,11 @@ The courses I took as part of the Electronics and Communication Engineering are 
 * [Data Structures & Programming (EHB 208E)](https://mega.nz/folder/SDhwDQTL#Zd6TPt2wC1HvOZfBgzwLSg)
 * [Machine Learning for Signal Processing (EHB 328E)](https://mega.nz/folder/OSYGWayS#5MttErHUjr8eg5swyS41ig)
 * [Computer Aided Devices in Medicine (EHB 440E)](https://mega.nz/folder/rehiVJwZ#_SFivM3HhZLe1AvshJm65w)
-* [Artificial Neural Networks (EHB 420E)]()
+* [Artificial Neural Networks (EHB 420E)](https://mega.nz/folder/GK5UDAyQ#9yoKxIGzkO459K4s-grSJQ)
 
 * [Materials Science (MAL 201E)](https://mega.nz/folder/KSIVkKYY#pjvxS4wSny5z72SgU87fZg)
 * [Modern Physics (FIZ 201E)](https://mega.nz/folder/DWInjDCL#OZwCy0jAyDIO6vBiTJ0LgQ)
-* [Dynamics (DNK 201E)]()
+* Dynamics (DNK 201E)
 * [Control Systems (KON 317E)](https://mega.nz/folder/zKYnmSqL#dt6gqHzzSWBOF8J7ijpNLA)
 * [Random Signals and Noise (EHB 334E)](https://mega.nz/folder/yahFnZpS#5l71cgEKykelAVE3oiUfEg)
 
