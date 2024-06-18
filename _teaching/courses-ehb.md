@@ -31,13 +31,13 @@ The courses I took as part of the Electronics and Communication Engineering are 
 * [Digital Signal Processing (EHB 315E)]()
 * [Communications I (EHB 307E)]()
 * [Communications II (EHB 308E)]()
-* [Introduction to Electromagnetic Fields (EHB 212E)]()
+* [Introduction to Electromagnetic Fields (EHB 212E)](https://mega.nz/folder/GXBSUBpL#Wgf2_K_rheAjnYc5JIHgew)
 * [Electromagnetic Waves (EHB 313E)]()
 * [Microwave Engineering (EHB 362E)]()
 * [Antennas (EHB 456E)]()
 
 * [Introduction to C (EEF 110E)](https://mega.nz/folder/LOgVRIJZ#6IDHBiKeIzDQyEpNrcqz4w)
-* [Data Structures & Programming (EHB 208E)]()
+* [Data Structures & Programming (EHB 208E)](https://mega.nz/folder/SDhwDQTL#Zd6TPt2wC1HvOZfBgzwLSg)
 * [Machine Learning for Signal Processing (EHB 328E)]()
 * [Computer Aided Devices in Medicine (EHB 440E)]()
 * [Artificial Neural Networks (EHB 420E)]()
@@ -52,7 +52,7 @@ The courses I took as part of the Electronics and Communication Engineering are 
 * [Italian I (ITA 101)](https://mega.nz/folder/raIUzbZI#nZI6PZG23WUicAlR4i3KHg)
 * [Economics (EKO 201E)](https://mega.nz/folder/eTJimAwb#CrUSO8pdP79-Fth7cO_xuQ)
 * [International Relations and Globalization (ITB 094E)](https://mega.nz/folder/uHZwEaKa#SldTjUw0n_46jCeEzzzJug)
-* [The Modern Middle East (ITB 214E)]()
+* [The Modern Middle East (ITB 214E)](https://mega.nz/folder/HGY0TJzZ#77Tbg4tp4yYMvTHCIDsyOg)
   
 
   
