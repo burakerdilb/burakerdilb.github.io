@@ -31,8 +31,8 @@ The courses I took as part of the Electronics and Communication Engineering are 
 * [Digital Signal Processing (EHB 315E)]()
 * [Communications I (EHB 307E)]()
 * [Communications II (EHB 308E)]()
-* [Introduction to Electromagnetic Fields (EHB 212E)](https://mega.nz/folder/GXBSUBpL#Wgf2_K_rheAjnYc5JIHgew)
-* [Electromagnetic Waves (EHB 313E)]()
+* [Theory of Electromagnetics I (EEF 212E)](https://mega.nz/folder/GXBSUBpL#Wgf2_K_rheAjnYc5JIHgew)
+* [Theory of Electromagnetics II (EHB 337E)]()
 * [Microwave Engineering (EHB 362E)]()
 * [Antennas (EHB 456E)]()
 
