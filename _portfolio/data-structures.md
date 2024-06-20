@@ -1,7 +1,7 @@
 ---
 title: "Graph Theory Application in City Distance Calculation"
 excerpt: "This project utilizes graph theory and adjacency matrices to determine and optimize the shortest travel routes between seven major cities, demonstrating practical applications of data structures and programming concepts.
-<br/><img src='/images/route.jpg' style='width:600px;'>"
+<br/><img src='/images/route.png' style='width:600px;'>"
 type: Data Structures Term Project
 date: 2022-12-19
 collection: portfolio
