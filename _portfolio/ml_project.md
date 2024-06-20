@@ -1,6 +1,7 @@
 ---
 title: "Machine Learning Approaches in Bioengineering for Biosignal Processing"
-excerpt: "This survey paper provides a comprehensive review of recent advances and applications of machine learning approaches in the interdisciplinary field of bioengineering, specifically in the field of biosignal processing. <br/><img src='/images/ecg.jpg' style='width:600px;'>"
+excerpt: "This survey paper provides a comprehensive review of recent advances and applications of machine learning approaches in the interdisciplinary field of bioengineering, specifically in the field of biosignal processing. 
+<br/><img src='/images/ecg.jpg' style='width:600px;'>"
 type: ML Term Project
 date: 2023-06-11
 collection: portfolio
