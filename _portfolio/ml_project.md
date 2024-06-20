@@ -11,4 +11,4 @@ This survey paper provides a comprehensive review of recent advances and applica
 
 The paper outlines how ML is leveraged for processing, analyzing, classifying, and interpreting biosignals for various applications, such as diagnosis, monitoring, rehabilitation, and brain-computer interfaces. Additionally, it discusses the ongoing challenges and potential future directions of ML applications in this field. Through this review, we aim to highlight the critical role of ML in enabling adaptive, personalized, and intelligent systems that interact with biosignals in real-time, with potential implications for improving patient outcomes in various medical conditions.
 
-* [Project Report](https://mega.nz/folder/OSYGWayS#5MttErHUjr8eg5swyS41ig/file/THBBRb5D)
+* [Project Report](https://drive.google.com/file/d/1EGljHlnQx4_dHGIhYLhzW-ocLh4TAoBD/view?usp=share_link)
