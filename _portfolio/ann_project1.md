@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning Models for Heart Attack Prediction"
-excerpt: "This project is about the general analysis of machine learning  models  for  heart  attack  prediction  by  using  various analytical  techniques  to  gain  awareness  of  the  structure  and characteristics  of  the  dataset. <br/><img src='/images/Heart.png' style='width:300px;'>"
+excerpt: "This project is about the general analysis of machine learning  models  for  heart  attack  prediction  by  using  various analytical  techniques  to  gain  awareness  of  the  structure  and characteristics  of  the  dataset. <br/><img src='/images/Heart.png' style='width:600px;'>"
 type: Artificial Neural Networks Term Project
 date: 2024-01-16
 collection: portfolio
