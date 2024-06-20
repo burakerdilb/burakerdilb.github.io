@@ -13,6 +13,7 @@ A wearable device capable of constant, real-time, and precise monitoring of thes
 
 The core of this research is the development of a machine learning-based model to predict preterm labor using EMG signals. The approach encompasses data collection, preprocessing, analysis, and the creation of a user-friendly interface for displaying real-time predictions. Ultimately, this study aims to develop a novel, wearable technology for the early detection of preterm labor, potentially transforming prenatal care and significantly reducing neonatal risks associated with preterm births.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=nhWAvj13AtM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="966" height="604" src="https://www.youtube.com/embed/nhWAvj13AtM" title="EHB 440E Term Project - Wearable Devices for Real-time Monitoring the Labor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 * [Project Report and Code](https://drive.google.com/file/d/1pP81yBmin3rkRqZr4hfZPtLlAdCNkEaU/view?usp=share_link)
