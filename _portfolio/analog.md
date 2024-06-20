@@ -9,5 +9,5 @@ collection: portfolio
 
 This project focuses on the design, simulation, and optimization of a two-stage CMOS operational amplifier that meets specific performance criteria including a voltage gain greater than 57 dB, a bandwidth exceeding 220 MHz, a phase margin over 55 degrees, and a load capacitance of 1.8 pF. Utilizing SPICE simulations, the design aims to maximize the figure of merit (FOM), which is a function of gain, bandwidth, settling time, and power consumption, under various constraints. The report presents the methodology, simulation results, and analysis of the op-amp's performance, showcasing its successful adherence to the specified design requirements using 65 nm CMOS technology. 
 
-* [Project Report](projectreports/analog.pdf)
+* [Project Report](/projectreports/analog.pdf)
 
