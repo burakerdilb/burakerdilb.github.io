@@ -9,5 +9,5 @@ collection: portfolio
 
 This project presents the implementation of a program designed to optimize travel routes between seven major cities using graph theory and adjacency matrices. By prompting the user to input the number of cities and an adjacency matrix representing the distances between them, the program calculates the shortest paths from a selected starting city to all other cities. The report details the terminal-based user interface, the process of selecting cities and entering data, and the computation of minimum distances and corresponding routes. This work exemplifies the practical application of data structures and programming concepts in solving real-world problems related to urban network optimization.
 
-* [Project Report](https://mega.nz/folder/SDhwDQTL#Zd6TPt2wC1HvOZfBgzwLSg/file/jb42lCgL)
+* [Project Report](https://drive.google.com/file/d/1ZaJw8-TaWOWimUI48BsaCTjdvQP9CUtV/view?usp=share_link)
 * [Project Code](https://mega.nz/folder/SDhwDQTL#Zd6TPt2wC1HvOZfBgzwLSg/file/vSx2QApZ)
