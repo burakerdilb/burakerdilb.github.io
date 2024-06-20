@@ -3,7 +3,7 @@ title: "Piezoelectric Materials"
 excerpt: "A comprehensive study of piezoelectric materials, exploring their properties, applications in various industries, and their potential for future advancements in energy harvesting and storage. 
 <br/><img src='/images/piezo.jpg' style='width:600px;'>"
 type: Materials Science Term Project
-date: 2021-05-24
+date: 2021-05-23
 collection: portfolio
 ---
 
