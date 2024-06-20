@@ -1,7 +1,8 @@
 ---
 title: "Machine Learning Models for Heart Attack Prediction"
 excerpt: "This project is about the general analysis of machine learning  models  for  heart  attack  prediction  by  using  various analytical  techniques  to  gain  awareness  of  the  structure  and characteristics  of  the  dataset. <br/><img src='/images/Heart.png'>"
+date: 2024-01-16
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This project is about the general analysis of machine learning  models  for  heart  attack  prediction  by  using  various analytical  techniques  to  gain  awareness  of  the  structure  and characteristics  of  the  dataset.  The  research  begins  with  an  Exploratory Data Analysis (EDA) and extending into the distribution of individual features and the relationships among them. Correlation analysis is then employed to found potential interactions anddependencies among numerical variables, shedding light on their collective  impact  on  heart  disease  risk.  Moving  beyond  correlation, cluster analysis is applied to identify underlying patterns or subgroups  within  the data,  indicative  of  specific  risk  groups  or heart disease profiles. The final stage involves the development of predictive  models, utilizing  the  dataset’s  wealth  of  information to  predict  heart  disease  diagnosis  accurately.  The  final  goal  is to contribute to early detection and intervention strategies. This multifaceted approach, encompassing EDA, correlation analysis, cluster  analysis,  and  predictive  modelling,  aims  to  enhance  our understanding  of  heart  disease  prediction. 
