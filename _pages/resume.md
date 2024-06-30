@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-[Resume PDF](resume_180624.pdf)
+[Resume PDF](https://drive.google.com/file/d/1BQ77qbo3oV60iPlAjltd0imPxh5aEntS/view?usp=share_link)
 
 {% include base_path %}
 
@@ -22,8 +22,9 @@ Education
     - Artificial Neural Networks
     - Comp. Aid. Devices in Medicine
     - Data Structures 
-* B.S. in **Aeronautical Engineering**, Istanbul Technical University, 2026 
-  * GPA: 3.38
+* B.S. in **Aeronautical Engineering**, Istanbul Technical University, 2026
+  * Double Major
+  * GPA: 3.39
   * Relevant Courses:
     - Compressible Aerodynamics
     - Fluid Mechanics
@@ -31,12 +32,6 @@ Education
 
 Work Experience
 ======
-* **Undergraduate Research Assistant** *(Nov. 2022 - Present)*
-  * Bountenna Antennas & Propagation Research Lab.
-  * Duties includes: Antenna, biodegradable sensor and phantom design
-  * Software used: Ansys HFSS, CST
-  * Supervisor: Assoc. Prof. Sema Dumanlı-Oktar
-
 * **Machine Learning Engineering Intern** *(Aug. 2023 - Sep. 2023)*
   * Baykar Technologies
   * Duties included: Utilizing computer vision to improve the efficiency of the production line
@@ -46,6 +41,12 @@ Work Experience
   * Aselsan
   * Duties included: Creating UI to customize Lora E32 communication module
   * Software/Languages used: C#
+ 
+* **Undergraduate Research Assistant** *(Nov. 2022 - June 2023)*
+  * Bountenna Antennas & Propagation Research Lab.
+  * Duties includes: Antenna, biodegradable sensor and phantom design
+  * Software used: Ansys HFSS, CST
+  * Supervisor: Assoc. Prof. Sema Dumanlı-Oktar
  
 * **Long-Term Software Engineering Intern** *(Nov. 2022 - May 2023)* 
   * Turkish Aerospace
