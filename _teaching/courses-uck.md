@@ -19,4 +19,6 @@ The courses I took as part of the Aeronautical Engineering are listed.
 * [Measurement Techniques (UZB 301E)](https://mega.nz/folder/CPRWxK4T#kn926u2UAOreN9O2vKndhQ)
 * [Compressible Aerodynamics (UZB 310E)](https://mega.nz/folder/uGRA2JRJ#guVnv3qGOga0wLe_-lp_bg)
 * [Experimental Engineering (UCK 304E)](https://mega.nz/folder/iP5nzLRa#F0UuFVBgvM2NuURS6enDUw)
+* [Jet Propulsion (UCK 421)](https://mega.nz/folder/CHIByLiJ#E8jsnqP0vC9fsUbqsq3ZXQ)
+* [Flight Mechanics (UCK 322E)](https://mega.nz/folder/yOo2hD4R#0kPgmhA79XyHKkYGnSCPpw)
 
