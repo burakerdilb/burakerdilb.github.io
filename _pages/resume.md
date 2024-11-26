@@ -13,7 +13,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in **Electronics and Communications Engineering**, Istanbul Technical University, 2025
+* B.Sc. in **Electronics and Communications Engineering**, Istanbul Technical University, 2025
   * GPA: 3.55
   * Relevant Courses:
     - Antennas
@@ -23,7 +23,7 @@ Education
     - ML for Signal Processing
     - Artificial Neural Networks
     - Comp. Aid. Devices in Medicine
-* B.S. in **Aeronautical Engineering**, Istanbul Technical University, 2025
+* B.Sc. in **Aeronautical Engineering**, Istanbul Technical University, 2025
   * Double Major
   * GPA: 3.37
   * Relevant Courses:
