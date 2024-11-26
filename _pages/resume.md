@@ -36,13 +36,15 @@ Work Experience
 ======
 * **Undergraduate Research Assistant** *(Sep. 2024 - Present)*
   * ITU Medical Devices Research & Application Lab.
-  * Led the design of a virtual prototype aimed at continuous monitoring of intracranial hemorrhage using microwave imaging, incorporating machine learning solutions to overcome diffraction limitations and enhance imaging resolution.
- * Performed comprehensive numerical verification and simulation of the virtual prototype using ANSYS HFSS, CST, and Altair Feko, and developed a Python-based neural network model to optimize image clarity.
+  * Duties included: Design of a virtual-prototype for continuous monitoring of intracranial hemorrhage with microwave imaging.
+  * Software/Languages used: ANSYS HFSS, CST, Altair Feko, Python, TensorFlow
+  * Supervisor: Prof. Dr. Mehmet Çayören
     
 * **Undergraduate Research Assistant** *(Sep. 2024 - Present)*
   * ITU Aerospace Research Center (ITU-ARC)
-  * Engaged in the design and production of phased array antennas for aviation applications. Focused on developing a fixed beam antenna array using commercially available 2.4 GHz patch antennas and a 2x2 fixed phase shift network.
-  * Responsible for the PCB design using KiCad and conducting antenna design simulations using ANSYS HFSS. Conducted ground testing to evaluate the performance of the phase shifter circuit and antenna array, ensuring the system meets the required directional stability criteria.
+  * Duties included: Design of phased array antenna for aviation
+  * Software/Languages used: ANSYS HFSS, Matlab, KiCad
+  * Supervisor: Asst. Prof. Ramazan Yeniçeri
     
 * **Machine Learning Engineering Intern** *(Aug. 2023 - Sep. 2023)*
   * Baykar Technologies
