@@ -1,7 +1,7 @@
 ---
 title: "Electronics and Communications Engineering Courses"
 collection: teaching
-type: "B.S."
+type: "B.Sc."
 venue: "Istanbul Technical University"
 date: 2024-01-02
 permalink: /courses/ehb-courses
@@ -35,6 +35,8 @@ The courses I took as part of the Electronics and Communication Engineering are 
 * [Theory of Electromagnetics II (EHB 337E)](https://mega.nz/folder/qSxiSBYQ#S31tFARw388-wQAiTb2WcA)
 * [Microwave Engineering (EHB 362E)](https://mega.nz/folder/LD4m1B6I#eewtQ875ojFRf6DsWfdIZQ)
 * [Antennas (EHB 456E)](https://mega.nz/folder/qf5DALAJ#Jfu_wsLFdD9axqipxKEUGw)
+* [RF Microelectronics (EHB 417E)](https://mega.nz/folder/CSQRTAxS#hqc8qK7FwZhNYesjbN_rxA)
+* [Active Microwave Circuits (EHB 451E)](https://mega.nz/folder/PWp3wBKb#kQREuUfuRJYAUK3WPqja3A)
 
 * [Introduction to C (EEF 110E)](https://mega.nz/folder/LOgVRIJZ#6IDHBiKeIzDQyEpNrcqz4w)
 * [Data Structures & Programming (EHB 208E)](https://mega.nz/folder/SDhwDQTL#Zd6TPt2wC1HvOZfBgzwLSg)
