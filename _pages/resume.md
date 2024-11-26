@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-[Resume PDF](https://drive.google.com/file/d/1BQ77qbo3oV60iPlAjltd0imPxh5aEntS/view?usp=share_link)
+[Resume PDF](https://drive.google.com/file/d/15MPcq4mUFCe5wL7-PIHZaITte5uMS6Eo/view?usp=drive_link)
 
 {% include base_path %}
 
@@ -18,20 +18,32 @@ Education
   * Relevant Courses:
     - Antennas
     - Microwave Engineering
+    - RF Microelectronics
+    - Active Microwave Circuits
     - ML for Signal Processing
     - Artificial Neural Networks
     - Comp. Aid. Devices in Medicine
-    - Data Structures 
-* B.S. in **Aeronautical Engineering**, Istanbul Technical University, 2026
+* B.S. in **Aeronautical Engineering**, Istanbul Technical University, 2025
   * Double Major
-  * GPA: 3.39
+  * GPA: 3.37
   * Relevant Courses:
     - Compressible Aerodynamics
+    - Principles of Aircraft Design
     - Fluid Mechanics
     - Comp. Aid. Design with CATIA
 
 Work Experience
 ======
+* **Undergraduate Research Assistant** *(Sep. 2024 - Present)*
+  * ITU Medical Devices Research & Application Lab.
+  * Led the design of a virtual prototype aimed at continuous monitoring of intracranial hemorrhage using microwave imaging, incorporating machine learning solutions to overcome diffraction limitations and enhance imaging resolution.
+ * Performed comprehensive numerical verification and simulation of the virtual prototype using ANSYS HFSS, CST, and Altair Feko, and developed a Python-based neural network model to optimize image clarity.
+    
+* **Undergraduate Research Assistant** *(Sep. 2024 - Present)*
+  * ITU Aerospace Research Center (ITU-ARC)
+  * Engaged in the design and production of phased array antennas for aviation applications. Focused on developing a fixed beam antenna array using commercially available 2.4 GHz patch antennas and a 2x2 fixed phase shift network.
+  * Responsible for the PCB design using KiCad and conducting antenna design simulations using ANSYS HFSS. Conducted ground testing to evaluate the performance of the phase shifter circuit and antenna array, ensuring the system meets the required directional stability criteria.
+    
 * **Machine Learning Engineering Intern** *(Aug. 2023 - Sep. 2023)*
   * Baykar Technologies
   * Duties included: Utilizing computer vision to improve the efficiency of the production line
@@ -61,6 +73,8 @@ Skills
 
 Licenses & Certifications
 ======
+* TOEFL iBT 101/120 (CEFR: C1) - ETS
+* GRE Overall Score: 315 (Q: 168, V: 147, A: 3.5)
 * [Introduction to Machine Learning - Global AI Hub](https://globalaihub.com/certificate-share/eyJ1c2VyLWlkIjo4MjQzNCwiY291cnNlLWlkIjoxMTQ0NjUsImNlcnQtaWQiOiIxMTQ2OTcifQ==)
 * [Introduction to Deep Learning - Global AI Hub](https://globalaihub.com/certificate-share/eyJ1c2VyLWlkIjo4MjQzNCwiY291cnNlLWlkIjoxMTUyMTksImNlcnQtaWQiOiIxMTUzODgifQ==)
 * [Unsupervised Learning, Recommenders, Reinforcement Learning - DeepLearning.AI](https://www.coursera.org/account/accomplishments/certificate/YLUJHM9UHYBW)
