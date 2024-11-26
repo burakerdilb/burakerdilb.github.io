@@ -15,7 +15,7 @@ The courses I took as part of the Aeronautical Engineering are listed.
 * [Computer Aided Drafting with CATIA (UZB 112E)](https://mega.nz/folder/rLZwAQIS#P15kYQHiSj84S2-iiMmMUA)
 * Thermodynamics (UCK 207E)
 * Fluid Dynamics (AKM 219E)
-* Strength of Materials (MUK 211E)
+* [Strength of Materials (MUK 211E)](https://mega.nz/folder/fe52FRBR#R-VXKCq3F-5vAYRyE1tF9g)
 * [Measurement Techniques (UZB 301E)](https://mega.nz/folder/CPRWxK4T#kn926u2UAOreN9O2vKndhQ)
 * [Compressible Aerodynamics (UZB 310E)](https://mega.nz/folder/uGRA2JRJ#guVnv3qGOga0wLe_-lp_bg)
 * [Experimental Engineering (UCK 304E)](https://mega.nz/folder/iP5nzLRa#F0UuFVBgvM2NuURS6enDUw)
