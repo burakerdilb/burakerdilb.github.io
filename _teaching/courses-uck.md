@@ -1,7 +1,7 @@
 ---
 title: "Aeronautical Engineering Courses"
 collection: teaching
-type: "B.S."
+type: "B.Sc."
 venue: "Istanbul Technical University"
 date: 2024-01-01
 permalink: /courses/uck-courses
@@ -21,4 +21,6 @@ The courses I took as part of the Aeronautical Engineering are listed.
 * [Experimental Engineering (UCK 304E)](https://mega.nz/folder/iP5nzLRa#F0UuFVBgvM2NuURS6enDUw)
 * [Jet Propulsion (UCK 421)](https://mega.nz/folder/CHIByLiJ#E8jsnqP0vC9fsUbqsq3ZXQ)
 * [Flight Mechanics (UCK 322E)](https://mega.nz/folder/yOo2hD4R#0kPgmhA79XyHKkYGnSCPpw)
+* [Aerodynamics (UCK 305E)](https://mega.nz/folder/iTglBQoa#BJlNkyt51lnBqG5jzkQyng)
+* [Principles of Aircraft Design (UCK 423E)](https://mega.nz/folder/XfhBzC6S#lqC2cE9xey1Ha98gkoq1DA)
 
