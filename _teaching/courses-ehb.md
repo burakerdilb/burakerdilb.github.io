@@ -27,6 +27,7 @@ The courses I took as part of the Electronics and Communication Engineering are 
 * [Analog Electronic Circuits (EHB 335E)](https://mega.nz/folder/aOJhjILI#CGQqahftYKr8Z6d-5ahYCA)
 * [Digital Electronic Circuits (EHB 322E)](https://mega.nz/folder/DPQ03IjB#5AYsg6TstkqvwBtraH0B8A)
 * [Introduction to Logic Design (EEF 205E)](https://mega.nz/folder/ebwUHL4L#QniPMQ5x0rvoJ4ZL27OXmg)
+* [Logic Design Lab. (EHB 324E)](https://mega.nz/folder/jD5hlb6S#6B3rh8WzcD3SWhqu5J94Zw)
 * [Signal Processing & Linear Systems (EHB 206E)](https://mega.nz/folder/nbBRURAL#-A4IaSmfLCnia0sQVirH7Q)
 * [Digital Signal Processing (EHB 315E)](https://mega.nz/folder/3G4USRjJ#vf0sWmRIlm7OVu9IfR-Mmw)
 * [Communications I (EHB 307E)](https://mega.nz/folder/CDBw1TaJ#T1ukoweS3nAdtnx_gco_oA)
