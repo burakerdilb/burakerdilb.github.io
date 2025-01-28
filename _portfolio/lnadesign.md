@@ -1,6 +1,6 @@
 ---
 title: "Low Noise Amplifier (LNA) Design Operates in 2.4 GHz"
-excerpt: "This project presents the design and simulation of an LNA operating at 2.4 GHz (S-Band) with a 100 MHz bandwidth.
+excerpt: "This project presents the design and simulation of an LNA operating at 2.4 GHz (S-Band).
 <br/><img src='/images/lnadesign.png' style='width:600px;'>"
 type: AMC Term Project
 date: 2025-01-10
