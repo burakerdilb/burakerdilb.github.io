@@ -1,15 +1,13 @@
 ---
 title: 'NotebookLM: Transforming Study Materials into Podcasts'
 date: 2025-01-20
-permalink: /posts/2024/03/notebooklm-study/
+permalink: /posts/2025/01/notebooklm-study/
 tags:
   - AI Tools
   - Study Methods
   - NotebookLM
   - Google
   - Aircraft Design
-  - Education Technology
-  - Learning Innovation
 ---
 
 In today's rapidly evolving educational landscape, artificial intelligence is revolutionizing how we learn and process information. Among these transformative tools, I've discovered a game-changer that has significantly enhanced my learning experience: NotebookLM by Google.
@@ -31,7 +29,7 @@ Benefits I've Discovered:
 
 Getting Started with NotebookLM
 ======
-If you're interested in trying this tool for your studies, you can access NotebookLM through [Google's official platform](https://notebooklm.google/). For examples of how I've used it in my aircraft design studies, you can check out my course materials at my [academic website](https://burakerdilb.github.io/courses/uck-courses).
+If you're interested in trying this tool for your studies, you can access NotebookLM through [Google's official platform](https://notebooklm.google/). For examples of how I've used it in my aircraft design studies, you can check out my course materials at my [website](https://burakerdilb.github.io/courses/uck-courses).
 
 The Future of Learning
 ------
