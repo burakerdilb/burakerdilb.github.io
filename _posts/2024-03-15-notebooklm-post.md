@@ -1,6 +1,6 @@
 ---
 title: 'NotebookLM: Transforming Study Materials into Podcasts'
-date: 2024-03-15
+date: 2025-01-20
 permalink: /posts/2024/03/notebooklm-study/
 tags:
   - AI Tools
