@@ -3,7 +3,7 @@ title: "Electronics and Communications Engineering Courses"
 collection: teaching
 type: "B.Sc."
 venue: "Istanbul Technical University"
-date: 2024-01-02
+date: 2025-01-02
 permalink: /courses/ehb-courses
 ---
 The courses I took as part of the Electronics and Communication Engineering are listed.
