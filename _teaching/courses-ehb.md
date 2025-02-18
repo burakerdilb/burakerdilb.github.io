@@ -38,6 +38,7 @@ The courses I took as part of the Electronics and Communication Engineering are 
 * [Antennas (EHB 456E)](https://mega.nz/folder/qf5DALAJ#Jfu_wsLFdD9axqipxKEUGw)
 * [RF Microelectronics (EHB 417E)](https://mega.nz/folder/CSQRTAxS#hqc8qK7FwZhNYesjbN_rxA)
 * [Active Microwave Circuits (EHB 451E)](https://mega.nz/folder/PWp3wBKb#kQREuUfuRJYAUK3WPqja3A)
+* [Satellite Communications (EHB 464E)](https://mega.nz/folder/7aJQDIbC#QaMgp8xMGc0H6SRcEDVwEA)
 
 * [Introduction to C (EEF 110E)](https://mega.nz/folder/LOgVRIJZ#6IDHBiKeIzDQyEpNrcqz4w)
 * [Data Structures & Programming (EHB 208E)](https://mega.nz/folder/SDhwDQTL#Zd6TPt2wC1HvOZfBgzwLSg)
