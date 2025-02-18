@@ -22,5 +22,9 @@ The courses I took as part of the Aeronautical Engineering are listed.
 * [Jet Propulsion (UCK 421)](https://mega.nz/folder/CHIByLiJ#E8jsnqP0vC9fsUbqsq3ZXQ)
 * [Flight Mechanics (UCK 322E)](https://mega.nz/folder/yOo2hD4R#0kPgmhA79XyHKkYGnSCPpw)
 * [Aerodynamics (UCK 305E)](https://mega.nz/folder/iTglBQoa#BJlNkyt51lnBqG5jzkQyng)
-* [Principles of Aircraft Design (UCK 423E)](https://mega.nz/folder/XfhBzC6S#lqC2cE9xey1Ha98gkoq1DA)
+* [Principles of Aircraft Design I (UCK 423E)](https://mega.nz/folder/XfhBzC6S#lqC2cE9xey1Ha98gkoq1DA)
+* [Principles of Aircraft Design II (UCK 424E)](https://mega.nz/folder/zbJGHTwJ#o6-jAKrLa7Dub_u1K_4USg)
+* [Aerospace Structures (UZB 337E)](https://mega.nz/folder/PbRhEB4J#bGpwwFwbIwYDRdyYsana5Q)
+* [Heat Transfer (UZB 314E)](https://mega.nz/folder/6TRxVaDA#d0tNfgBqaBTuw5JgV7Syww)
+* [Flight Stability and Control (UCK 441E)](https://mega.nz/folder/TOo1gShC#YoCSD-nnPtX3_56aS_EiNg)
 
