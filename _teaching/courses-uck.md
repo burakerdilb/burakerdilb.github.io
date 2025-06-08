@@ -28,5 +28,5 @@ The courses I took as part of the Aeronautical Engineering are listed.
 * [Heat Transfer (UZB 314E)](https://mega.nz/folder/6TRxVaDA#d0tNfgBqaBTuw5JgV7Syww)
 * [Flight Stability and Control (UCK 441E)](https://mega.nz/folder/TOo1gShC#YoCSD-nnPtX3_56aS_EiNg)
 
-* [Graduation Project (UCK 4902)](https://mega.nz/folder/TOo1gShC#YoCSD-nnPtX3_56aS_EiNg)
+* [Graduation Project (UCK 4902)](https://mega.nz/folder/fewD0TSK#2T8usnskOnatCjPlYeUp5Q)
 
