@@ -56,6 +56,8 @@ The courses I took as part of the Electronics and Communication Engineering are 
 * [Economics (EKO 201E)](https://mega.nz/folder/eTJimAwb#CrUSO8pdP79-Fth7cO_xuQ)
 * [International Relations and Globalization (ITB 094E)](https://mega.nz/folder/uHZwEaKa#SldTjUw0n_46jCeEzzzJug)
 * [The Modern Middle East (ITB 214E)](https://mega.nz/folder/HGY0TJzZ#77Tbg4tp4yYMvTHCIDsyOg)
+
+* [Graduation Project (EHB 4902E)](https://mega.nz/folder/LXwBXZrA#zmCAP_9kXPmAUBKmzEtEJA)
   
 
   
