@@ -2282,6 +2282,13 @@ section::before {
         padding-top: 5px;
     }
     
+    .hero-photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+    
 
     
     .hero-actions {
@@ -2308,6 +2315,7 @@ section::before {
     .photo-container {
         width: 320px;
         height: 320px;
+        margin: 0 auto;
     }
     
     .hero-title {
@@ -2422,6 +2430,7 @@ section::before {
     .photo-container {
         width: 260px;
         height: 260px;
+        margin: 0 auto;
     }
     
     .photo-placeholder {
