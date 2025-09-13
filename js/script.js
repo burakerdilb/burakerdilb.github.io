@@ -25,12 +25,43 @@ document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
     
+    console.log('Hamburger element:', hamburger);
+    console.log('Nav menu element:', navMenu);
+    
     if (hamburger && navMenu) {
         hamburger.addEventListener('click', function() {
+            console.log('Hamburger clicked!');
+            console.log('Nav menu classes before:', navMenu.classList.toString());
+            console.log('Hamburger classes before:', hamburger.classList.toString());
+            
             navMenu.classList.toggle('active');
             hamburger.classList.toggle('active');
+            
+            console.log('Nav menu classes after:', navMenu.classList.toString());
+            console.log('Hamburger classes after:', hamburger.classList.toString());
         });
+    } else {
+        console.log('Hamburger or nav menu not found!');
     }
+    
+    // Close mobile menu when clicking on nav links
+    const navLinks = document.querySelectorAll('.nav-menu a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+    });
+    
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+            navMenu.classList.remove('active');
+            hamburger.classList.remove('active');
+        }
+    });
 
     // Dropdown navigation functionality
     const dropdowns = document.querySelectorAll('.dropdown');
