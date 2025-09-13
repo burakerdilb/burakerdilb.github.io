@@ -306,10 +306,32 @@ section::before {
     display: none;
 }
 
-/* Ensure hamburger is hidden on desktop */
+/* Ensure hamburger is hidden on desktop and dropdowns work normally */
 @media (min-width: 769px) {
     .hamburger {
         display: none !important;
+    }
+    
+    /* Ensure dropdown functionality works on desktop */
+    .nav-menu .dropdown-menu {
+        display: block !important;
+        position: absolute !important;
+        top: 100% !important;
+        left: 0 !important;
+        background: white !important;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+        border-radius: 8px !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        transform: translateY(-10px) !important;
+        transition: all 0.3s ease !important;
+    }
+    
+    .nav-menu .dropdown:hover .dropdown-menu {
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: translateY(0) !important;
+        display: block !important;
     }
 }
 
@@ -2378,22 +2400,37 @@ section::before {
         display: none !important;
     }
     
-    /* Dropdown menu styling for mobile */
+    /* Hide all dropdown menus on mobile */
     .nav-menu .dropdown-menu {
-        position: static !important;
-        background: transparent !important;
-        box-shadow: none !important;
-        border: none !important;
-        padding: 8px 0 0 0 !important;
-        margin: 0 !important;
+        display: none !important;
     }
     
-    .nav-menu .dropdown-menu a {
-        font-size: 0.95rem !important;
-        padding: 10px 20px !important;
-        margin: 4px 0 !important;
-        background: rgba(215, 178, 101, 0.1) !important;
-        color: #666 !important;
+    /* Show only main nav items on mobile */
+    .nav-menu > li {
+        display: block !important;
+    }
+    
+    /* Remove dropdown functionality on mobile */
+    .nav-menu .dropdown > a {
+        pointer-events: all !important;
+        cursor: pointer !important;
+    }
+    
+    /* Hide dropdown submenus completely on mobile */
+    .nav-menu .dropdown .dropdown-menu,
+    .nav-menu .dropdown ul,
+    .nav-menu li ul {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        max-height: 0 !important;
+    }
+    
+    /* Ensure dropdown links don't trigger dropdown behavior on mobile */
+    .nav-menu .dropdown:hover .dropdown-menu {
+        display: none !important;
     }
     
     .hamburger.active span:nth-child(2) {
