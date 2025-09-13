@@ -271,11 +271,12 @@ section::before {
     .navbar .hamburger span,
     div.hamburger span {
         background: #222 !important;
-        width: 100% !important;
-        height: 3px !important;
+        width: 24px !important;
+        height: 2px !important;
         display: block !important;
         margin: 0 !important;
         transition: all 0.3s ease !important;
+        border-radius: 1px !important;
     }
 }
 
@@ -2348,15 +2349,7 @@ section::before {
         display: flex !important;
     }
     
-    /* Style nav menu items with staggered animation */
-    .nav-menu li {
-        margin: 12px 0 !important;
-        opacity: 0 !important;
-        transform: translateY(20px) !important;
-        transition: all 0.3s ease !important;
-        width: 80% !important;
-        max-width: 300px !important;
-    }
+    /* This is handled by the more specific rules below */
     
     .nav-menu.active li {
         opacity: 1 !important;
@@ -2400,37 +2393,54 @@ section::before {
         display: none !important;
     }
     
-    /* Hide all dropdown menus on mobile */
-    .nav-menu .dropdown-menu {
-        display: none !important;
-    }
-    
-    /* Show only main nav items on mobile */
-    .nav-menu > li {
-        display: block !important;
-    }
-    
-    /* Remove dropdown functionality on mobile */
-    .nav-menu .dropdown > a {
-        pointer-events: all !important;
-        cursor: pointer !important;
-    }
-    
-    /* Hide dropdown submenus completely on mobile */
-    .nav-menu .dropdown .dropdown-menu,
+    /* COMPLETELY HIDE all dropdown menus and submenus on mobile */
+    .nav-menu .dropdown-menu,
     .nav-menu .dropdown ul,
-    .nav-menu li ul {
+    .nav-menu li ul,
+    .nav-menu ul ul {
         display: none !important;
         visibility: hidden !important;
         opacity: 0 !important;
         height: 0 !important;
         overflow: hidden !important;
         max-height: 0 !important;
+        position: absolute !important;
+        left: -9999px !important;
     }
     
-    /* Ensure dropdown links don't trigger dropdown behavior on mobile */
-    .nav-menu .dropdown:hover .dropdown-menu {
+    /* Show only top-level nav items on mobile */
+    .nav-menu > li {
+        display: block !important;
+        margin: 12px 0 !important;
+        opacity: 0 !important;
+        transform: translateY(20px) !important;
+        transition: all 0.3s ease !important;
+        width: 80% !important;
+        max-width: 300px !important;
+    }
+    
+    /* Only show these 6 main navigation items */
+    .nav-menu > li:nth-child(1), /* Home */
+    .nav-menu > li:nth-child(2), /* Education */
+    .nav-menu > li:nth-child(3), /* Experience */
+    .nav-menu > li:nth-child(4), /* Portfolio */
+    .nav-menu > li:nth-child(5), /* Photography */
+    .nav-menu > li:nth-child(6)  /* Contact */ {
+        display: block !important;
+    }
+    
+    /* Hide any other nav items that might exist */
+    .nav-menu > li:nth-child(n+7) {
         display: none !important;
+    }
+    
+    /* Ensure dropdown functionality is completely disabled on mobile */
+    .nav-menu .dropdown:hover .dropdown-menu,
+    .nav-menu .dropdown:active .dropdown-menu,
+    .nav-menu .dropdown:focus .dropdown-menu {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
     }
     
     .hamburger.active span:nth-child(2) {
