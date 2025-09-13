@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography - Burak Erdil Biçer</title>
+    <link rel="stylesheet" href="../css/styles.css?v=5">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">Burak Erdil Biçer</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="academics.html">Education <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="academics.html#education">Education</a></li>
+                        <li><a href="academics.html#technical-skills">Technical Skills</a></li>
+                        <li><a href="academics.html#resume">Resume</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="work-experience.html">Experience <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="work-experience.html#work-experience">Work Experience</a></li>
+                        <li><a href="work-experience.html#certificates">Certificates</a></li>
+                        <li><a href="work-experience.html#activities-leadership">Activities & Leadership</a></li>
+                        <li><a href="work-experience.html#awards-achievements">Awards & Achievements</a></li>
+                    </ul>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="photography.html" class="active">Photography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Photography Portfolio</h1>
+        </div>
+    </section>
+
+    <!-- Photography Section -->
+    <section class="section">
+        <div class="container">
+            
+            <div class="photo-gallery" id="photoGallery">
+                <!-- Photos will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Burak Erdil Biçer | 
+                <a href="mailto:burakerdilb@gmail.com">Email</a> | 
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            loadPhotographyContent();
+        });
+
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        function loadPhotographyContent() {
+            // Static photos from photo folder
+                const staticPhotos = [
+                    {
+                        id: 'photo_1',
+                        title: 'Rumeli Hisarı, Istanbul',
+                        category: 'landscape',
+                        image: '../photo/DSC07290.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_2',
+                        title: 'Subway, Vienna',
+                        category: 'architecture',
+                        image: '../photo/IMG_2967.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_3',
+                        title: 'Fener Rum Erkek Lisesi, Istanbul',
+                        category: 'street',
+                        image: '../photo/IMG_3216.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_4',
+                        title: 'Lake Geneva, Lausanne',
+                        category: 'nature',
+                        image: '../photo/IMG_3300.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_5',
+                        title: 'Ouchy, Lausanne',
+                        category: 'culture',
+                        image: '../photo/IMG_3313.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_10',
+                        title: 'Beau-Rivage Palace, Lausanne',
+                        category: 'architecture',
+                        image: '../photo/IMG_3339.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_6',
+                        title: 'Hotel de la Paix, Geneva',
+                        category: 'architecture',
+                        image: '../photo/IMG_3351.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_11',
+                        title: 'Küçüksu Kasrı, Istanbul',
+                        category: 'street',
+                        image: '../photo/IMG_3567.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_7',
+                        title: 'Old Town, Geneva',
+                        category: 'street',
+                        image: '../photo/IMG_3418.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_8',
+                        title: 'Old Town, Geneva',
+                        category: 'urban',
+                        image: '../photo/IMG_3424.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_9',
+                        title: 'Vondelpark, Amsterdam',
+                        category: 'portrait',
+                        image: '../photo/IMG_5748.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_12',
+                        title: 'Musée du Louvre, Paris',
+                        category: 'landscape',
+                        image: '../photo/IMG_6260.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_13',
+                        title: 'Erkilet International Airport, Kayseri',
+                        category: 'architecture',
+                        image: '../photo/IMG_5272.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_14',
+                        title: 'Basilica of Saint Nicholas, Amsterdam',
+                        category: 'architecture',
+                        image: '../photo/IMG_5398.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_15',
+                        title: 'Museumplein, Amsterdam',
+                        category: 'street',
+                        image: '../photo/IMG_5638.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_16',
+                        title: 'Tuileries, Paris',
+                        category: 'nature',
+                        image: '../photo/IMG_6072.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_17',
+                        title: 'Institut de France, Paris',
+                        category: 'architecture',
+                        image: '../photo/IMG_6193 2.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_18',
+                        title: 'Taşkışla, Istanbul',
+                        category: 'architecture',
+                        image: '../photo/IMG_0580.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_19',
+                        title: 'Pražský Hrad, Prague',
+                        category: 'landscape',
+                        image: '../photo/IMG_3126.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_20',
+                        title: 'Jardin Anglais, Geneva',
+                        category: 'nature',
+                        image: '../photo/IMG_3370.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_21',
+                        title: 'La Tour Zamansky, Paris',
+                        category: 'landscape',
+                        image: '../photo/IMG_6487.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_22',
+                        title: 'Royal Library, Brussels',
+                        category: 'architecture',
+                        image: '../photo/IMG_5828.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_23',
+                        title: 'Fener İskelesi, Istanbul',
+                        category: 'architecture',
+                        image: '../photo/IMG_3211.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_24',
+                        title: 'Celetná Ulice, Prague',
+                        category: 'street',
+                        image: '../photo/IMG_3049.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_25',
+                        title: 'Vltava, Prague',
+                        category: 'landscape',
+                        image: '../photo/IMG_3062.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_26',
+                        title: 'Taşkışla, Istanbul',
+                        category: 'nature',
+                        image: '../photo/IMG_0546.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_27',
+                        title: 'Kuzguncuk, Istanbul',
+                        category: 'street',
+                        image: '../photo/DSC07384.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_28',
+                        title: 'Nestroyplatz, Vienna',
+                        category: 'street',
+                        image: '../photo/IMG_2981.JPG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_29',
+                        title: 'Cathédrale Notre-Dame, Paris',
+                        category: 'architecture',
+                        image: '../photo/IMG_5686.JPEG',
+                        date: '2024'
+                    },
+                    {
+                        id: 'photo_30',
+                        title: 'Musée Royal de l\'Armée, Brussels',
+                        category: 'architecture',
+                        image: '../photo/IMG_5880.JPG',
+                        date: '2024'
+                    }
+                ];
+
+            // Shuffle photos array for random order
+            const shuffledPhotos = shuffleArray(staticPhotos);
+            
+            // Load photos
+            loadPhotos(shuffledPhotos);
+        }
+
+
+        function loadPhotos(photos) {
+            const photoGallery = document.getElementById('photoGallery');
+            
+            if (photos.length === 0) {
+                photoGallery.innerHTML = `
+                    <div class="no-photos-message">
+                        <h3>No Photos Available</h3>
+                        <p>Photos will appear here once they are uploaded through the admin panel.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            let html = '';
+            photos.forEach(photo => {
+                html += `
+                    <div class="photo-item" data-category="${photo.category}">
+                        <img src="${photo.image}" alt="${photo.title}" class="photo-image">
+                        <div class="photo-overlay">
+                            <h3>${photo.title}</h3>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            photoGallery.innerHTML = html;
+        }
+
+
+
+
+    </script>
+</body>
+</html>

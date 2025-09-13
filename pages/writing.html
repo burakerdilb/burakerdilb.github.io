@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing - Burak Erdil Biçer</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">Burak Erdil Biçer</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="academics.html">Education <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="academics.html#education">Education</a></li>
+                        <li><a href="academics.html#technical-skills">Technical Skills</a></li>
+                        <li><a href="academics.html#resume">Resume</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="work-experience.html">Experience <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="work-experience.html#work-experience">Work Experience</a></li>
+                        <li><a href="work-experience.html#certificates">Certificates</a></li>
+                        <li><a href="work-experience.html#activities-leadership">Activities & Leadership</a></li>
+                        <li><a href="work-experience.html#awards-achievements">Awards & Achievements</a></li>
+                    </ul>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Writing & Publications</h1>
+            <p>My thoughts on technology, education, and environmental sustainability</p>
+        </div>
+    </section>
+
+    <!-- Writing Section -->
+    <section class="section">
+        <div class="container">
+            <div class="articles-grid">
+                <!-- Articles will be dynamically generated here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Article Modal -->
+    <div id="articleModal" class="modal">
+        <div class="modal-content courses-modal">
+            <span class="close">&times;</span>
+            <div id="modalContent">
+                <!-- Content will be dynamically loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Burak Erdil Biçer | 
+                <a href="mailto:burakerdilb@gmail.com">Email</a> | 
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script>
+        // Wait for DOM to be fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get updated default articles from localStorage
+            const storedDefaultArticles = JSON.parse(localStorage.getItem('defaultArticles') || '{}');
+            
+            // Default article data
+            const defaultArticles = {
+                'notebooklm': {
+                    title: storedDefaultArticles['notebooklm']?.title || 'NotebookLM: Transforming Study Materials into Podcasts',
+                    subtitle: storedDefaultArticles['notebooklm']?.subtitle || '1 minute read',
+                    date: storedDefaultArticles['notebooklm']?.date || 'January 20, 2025',
+                    content: storedDefaultArticles['notebooklm']?.content || `
+                        <p>In today's rapidly evolving educational landscape, artificial intelligence is revolutionizing how we learn and process information. Among these transformative tools, I've discovered a game-changer that has significantly enhanced my learning experience: NotebookLM by Google.</p>
+                        
+                        <h3>What is NotebookLM?</h3>
+                        <p>NotebookLM is an innovative AI tool developed by Google that converts uploaded documents into engaging podcast-style content. What sets it apart is its ability to break down complex academic materials into digestible, conversational formats. Instead of struggling through dense technical papers, you can listen to clear, well-structured explanations of the concepts.</p>
+                        
+                        <h3>My Experience with Aircraft Design Studies</h3>
+                        <p>As an Aeronautical Engineering student at ITU, I've been using NotebookLM extensively for my "Principles of Aircraft Design" course (UCK 423E). The transformation of technical aircraft design concepts into accessible audio content has been remarkable. It's helped me grasp complex aeronautical principles more effectively by providing a different perspective on the material.</p>
+                        
+                        <h3>Benefits I've Discovered:</h3>
+                        <ul>
+                            <li>Converts complex technical content into conversational explanations</li>
+                            <li>Enables learning while commuting or doing other tasks</li>
+                            <li>Provides a fresh perspective on familiar material</li>
+                            <li>Makes technical jargon more approachable</li>
+                            <li>Creates a more engaging learning experience</li>
+                        </ul>
+                        
+                        <h3>Getting Started with NotebookLM</h3>
+                        <p>If you're interested in trying this tool for your studies, you can access NotebookLM through Google's official platform. For examples of how I've used it in my aircraft design studies, you can check out my course materials at my website.</p>
+                        
+                        <h3>The Future of Learning</h3>
+                        <p>Tools like NotebookLM represent the future of education - where AI doesn't replace traditional learning methods but enhances them by providing alternative ways to engage with academic content. Whether you're studying engineering, sciences, or any technical field, having your study materials transformed into podcast format can offer a valuable new dimension to your learning process.</p>
+                        
+                        <p>I encourage fellow students to explore this tool and discover how it might benefit their own studies. The combination of traditional reading with AI-powered audio learning could be the key to unlocking better understanding and retention of complex academic materials.</p>
+                    `
+                },
+                'waste-management': {
+                    title: storedDefaultArticles['waste-management']?.title || 'Case Study: Waste Management',
+                    subtitle: storedDefaultArticles['waste-management']?.subtitle || '2 minute read',
+                    date: storedDefaultArticles['waste-management']?.date || 'June 05, 2024',
+                    content: storedDefaultArticles['waste-management']?.content || `
+                        <p>On World Environment Day, ITU SDG Hub and Relique Experience Movement held a case study event on "Waste Management", focusing on the incident of a Sperm Whale found washed ashore with 6 kilos of plastic in its stomach. This event highlighted the importance of waste management in achieving sustainable development goals, offering an experience that raised awareness and focused on solutions. The incident drew attention from international organizations like WWF and the UN, emphasizing it not just as an environmental issue but a societal duty.</p>
+                        
+                        <h3>Why waste management is important?</h3>
+                        <p>Waste management is crucial for maintaining a healthy environment, conserving natural resources, and ensuring public health and safety. Proper waste management practices reduce the amount of waste that ends up in landfills and oceans, minimizing pollution and its harmful effects on wildlife and ecosystems. Effective waste management also conserves resources by promoting recycling and the reuse of materials, which can reduce the demand for raw materials and lower greenhouse gas emissions. Additionally, well-managed waste systems prevent the spread of diseases and mitigate health risks associated with improper waste disposal. By prioritizing waste management, we can foster sustainable development, protect biodiversity, and improve the quality of life for communities worldwide.</p>
+                        
+                        <h3>What can we do to save the Sperm Whale?</h3>
+                        <p>As a result of our case study, we have identified several measures to save the Sperm Whale and other marine life that we can take at both individual and societal levels. We can minimize plastic use in our daily lives, avoid single-use plastic products, and opt for reusable alternatives as crucial steps to reduce marine pollution. Proper segregation and recycling of waste are vital in preventing environmental pollution, requiring our conscious efforts and those of local authorities. We should organize educational and awareness campaigns, particularly targeting children and youth, to increase environmental consciousness. Additionally, by volunteering in marine cleanup activities, we not only directly contribute to environmental protection but also raise societal awareness.</p>
+                        
+                        <h3>Acknowledgments</h3>
+                        <p>I extend my gratitude to all participants who joined us in this meaningful event on World Environment Day, to Saf Nutrition for their support, and to Hope Alkazar for hosting us. I look forward to new experiences and continuing to take steps together towards protecting our environment and seas.</p>
+                    `
+                }
+            };
+
+            // Use default articles only
+            const allArticles = { ...defaultArticles };
+
+            // Modal functionality
+            const modal = document.getElementById('articleModal');
+            const modalContent = document.getElementById('modalContent');
+            const closeBtn = document.querySelector('.close');
+            
+            // Dynamically generate article cards
+            generateArticleCards();
+            
+            // Get all read more buttons after cards are generated
+            let readMoreButtons = document.querySelectorAll('.read-more');
+
+            // Check if elements exist
+            if (!modal || !modalContent || !closeBtn) {
+                console.error('Modal elements not found');
+                return;
+            }
+
+            // Function to generate article cards dynamically
+            function generateArticleCards() {
+                const articlesGrid = document.querySelector('.articles-grid');
+                
+                // Create array of all articles with their data
+                const allArticlesArray = [];
+                
+                // Get updated default articles from localStorage
+                const storedDefaultArticles = JSON.parse(localStorage.getItem('defaultArticles') || '{}');
+                
+                // Add default articles
+                allArticlesArray.push({
+                    id: 'notebooklm',
+                    title: storedDefaultArticles['notebooklm']?.title || 'NotebookLM: Transforming Study Materials into Podcasts',
+                    excerpt: (storedDefaultArticles['notebooklm']?.content || 'In today\'s rapidly evolving educational landscape, artificial intelligence is revolutionizing how we learn and process information. Among these transformative tools, I\'ve discovered a game-changer that has significantly enhanced my learning experience: NotebookLM by Google.').replace(/<[^>]*>/g, '').substring(0, 200) + '...',
+                    date: storedDefaultArticles['notebooklm']?.date || 'January 20, 2025',
+                    subtitle: storedDefaultArticles['notebooklm']?.subtitle || '1 minute read',
+                    image: storedDefaultArticles['notebooklm']?.image || null
+                });
+                
+                allArticlesArray.push({
+                    id: 'waste-management',
+                    title: storedDefaultArticles['waste-management']?.title || 'Case Study: Waste Management',
+                    excerpt: (storedDefaultArticles['waste-management']?.content || 'On World Environment Day, ITU SDG Hub and Relique Experience Movement held a case study event on "Waste Management", focusing on the incident of a Sperm Whale found washed ashore with 6 kilos of plastic in its stomach. This event highlighted the importance of waste management in achieving sustainable development goals.').replace(/<[^>]*>/g, '').substring(0, 200) + '...',
+                    date: storedDefaultArticles['waste-management']?.date || 'June 05, 2024',
+                    subtitle: storedDefaultArticles['waste-management']?.subtitle || '2 minute read',
+                    image: storedDefaultArticles['waste-management']?.image || null
+                });
+                
+                
+                // Sort articles by date (most recent first)
+                allArticlesArray.sort((a, b) => {
+                    const dateA = new Date(a.date);
+                    const dateB = new Date(b.date);
+                    return dateB - dateA; // Most recent first
+                });
+                
+                // Generate HTML for sorted articles
+                let html = '';
+                allArticlesArray.forEach(article => {
+                    const imageHtml = article.image ? 
+                        `<img src="${article.image}" alt="${article.title}" class="article-cover-image">` :
+                        `<div class="placeholder-image"></div>`;
+                    
+                    html += `
+                        <article class="article-card" data-article-id="${article.id}">
+                            <div class="article-image">
+                                ${imageHtml}
+                            </div>
+                            <div class="article-content">
+                                <h3>${article.title}</h3>
+                                <p>${article.excerpt}</p>
+                                <div class="article-meta">
+                                    <span class="article-date">${article.date}</span>
+                                    <span class="article-category">${article.subtitle}</span>
+                                </div>
+                                <span class="read-more">Read More</span>
+                            </div>
+                        </article>
+                    `;
+                });
+                
+                articlesGrid.innerHTML = html;
+                
+                // Add event listeners to all read more buttons
+                addReadMoreListeners();
+            }
+            
+            // Function to add event listeners to read more buttons
+            function addReadMoreListeners() {
+                const readMoreButtons = document.querySelectorAll('.read-more');
+                
+                readMoreButtons.forEach((button) => {
+                    button.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        
+                        const articleCard = this.closest('.article-card');
+                        const articleId = articleCard.getAttribute('data-article-id');
+                        
+                        const article = allArticles[articleId];
+                        
+                        if (article) {
+                            displayArticleModal(article);
+                            modal.style.display = 'block';
+                            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+                            
+                            // Track read count
+                            trackArticleRead(articleId);
+                        } else {
+                            console.error('Article not found for ID:', articleId);
+                        }
+                    });
+                });
+            }
+
+
+            // Function to track article reads
+            function trackArticleRead(articleId) {
+                    // Track default article reads
+                    const defaultArticles = JSON.parse(localStorage.getItem('defaultArticles') || '{}');
+                    if (defaultArticles[articleId]) {
+                        defaultArticles[articleId].reads = (defaultArticles[articleId].reads || 0) + 1;
+                    } else {
+                        defaultArticles[articleId] = { reads: 1 };
+                    }
+                    localStorage.setItem('defaultArticles', JSON.stringify(defaultArticles));
+            }
+
+            // Close modal when X is clicked
+            closeBtn.addEventListener('click', function() {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto'; // Restore scrolling
+            });
+
+            // Close modal when clicking outside
+            window.addEventListener('click', function(event) {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                }
+            });
+
+            // Close modal with Escape key
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape' && modal.style.display === 'block') {
+                    modal.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                }
+            });
+
+            // Function to display article details in modal
+            function displayArticleModal(article) {
+                modalContent.innerHTML = `
+                    <div class="courses-modal-header" id="modalHeader">
+                        <h2>${article.title}</h2>
+                        <p>${article.subtitle} • <i class="fas fa-calendar"></i> ${article.date}</p>
+                    </div>
+                    
+                    <div class="courses-modal-body">
+                        <div class="modal-content">
+                            ${article.content}
+                        </div>
+                    </div>
+                `;
+                
+                // Keep header always visible - no scroll fade effect
+                const modalBody = modalContent.querySelector('.courses-modal-body');
+                const modalHeader = modalContent.querySelector('#modalHeader');
+                
+                // Ensure header stays visible
+                modalHeader.style.opacity = '1';
+                modalHeader.style.transform = 'translateY(0)';
+            }
+        });
+    </script>
+</body>
+</html>

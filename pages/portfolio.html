@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Burak Erdil Biçer</title>
+    <link rel="stylesheet" href="../css/styles.css?v=5">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">Burak Erdil Biçer</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="academics.html">Education <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="academics.html#education">Education</a></li>
+                        <li><a href="academics.html#technical-skills">Technical Skills</a></li>
+                        <li><a href="academics.html#resume">Resume</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="work-experience.html">Experience <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="work-experience.html#work-experience">Work Experience</a></li>
+                        <li><a href="work-experience.html#certificates">Certificates</a></li>
+                        <li><a href="work-experience.html#activities-leadership">Activities & Leadership</a></li>
+                        <li><a href="work-experience.html#awards-achievements">Awards & Achievements</a></li>
+                    </ul>
+                </li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Project Portfolio</h1>
+            <p>Explore my research projects, technical implementations, and academic work</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section">
+        <div class="container">
+            <!-- Project Filters -->
+            <div class="portfolio-filters" id="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="algorithms">Algorithms</button>
+                <button class="filter-btn" data-filter="antennas">Antennas</button>
+                <button class="filter-btn" data-filter="bioengineering">Bioengineering</button>
+                <button class="filter-btn" data-filter="electronics">Electronics</button>
+                <button class="filter-btn" data-filter="machine-learning">Machine Learning</button>
+            </div>
+            
+            <!-- Projects Grid -->
+            <div class="portfolio-grid" id="projects-grid">
+
+
+                <!-- Brain Monitoring with Microwave Imaging Project -->
+                <div class="project-card" data-category="antennas,bioengineering,electronics" data-project="brain-monitoring">
+                    <div class="project-image">
+                        <img src="../assets/mm_dimension.drawio.png" alt="Monitoring of Brain with Microwave Imaging - MM Dimension Diagram" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Monitoring of Brain with Microwave Imaging</h3>
+                        <p class="project-subtitle">Cerebral Hemorrhage Detection System</p>
+                        <p class="project-date">Published: June 21, 2025</p>
+                        <p class="project-excerpt">Design of a portable, low-cost microwave imaging system for continuous monitoring of cerebral hemorrhages using a 16-dipole antenna array at 900 MHz with TSVD reconstruction algorithm.</p>
+                        <div class="project-buttons">
+                            <button class="view-project-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phased Array Antenna for Aviation Project -->
+                <div class="project-card" data-category="antennas,electronics" data-project="phased-array-aviation">
+                    <div class="project-image">
+                        <img src="../assets/Ekran Resmi 2025-06-24 01.10.35.png" alt="Phased Array Antenna for Aviation - Antenna Design" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Phased Array Antenna for Aviation</h3>
+                        <p class="project-subtitle">2×2 Array with Beam Steering</p>
+                        <p class="project-date">Published: June 15, 2025</p>
+                        <p class="project-excerpt">Complete design, fabrication, and experimental validation of a 2×2 phased array antenna system for aviation applications with passive beam steering using interdigital capacitors.</p>
+                        <div class="project-buttons">
+                            <button class="view-project-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LNA Design Project -->
+                <div class="project-card" data-category="electronics" data-project="lna">
+                    <div class="project-image">
+                        <img src="../assets/lna-circuit-diagram.png" alt="LNA Circuit Diagram - 2.4 GHz RF Amplifier" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Low Noise Amplifier (LNA) Design</h3>
+                        <p class="project-subtitle">2.4 GHz S-Band RF Amplifier</p>
+                        <p class="project-date">Published: January 10, 2025</p>
+                        <p class="project-excerpt">Design and simulation of an LNA operating at 2.4 GHz with 100 MHz bandwidth, achieving 17.05 dB gain and 1.29 dB noise figure using Silicon-Germanium NPN RF BFP620 transistor.</p>
+                        <div class="project-buttons">
+                            <button class="view-project-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flower Recognition Project -->
+                <div class="project-card" data-category="machine-learning,algorithms" data-project="flower-recognition">
+                    <div class="project-image">
+                        <img src="../assets/flower-rec.png" alt="Flower Recognition Using CNN" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Flower Recognition Using CNN</h3>
+                        <p class="project-subtitle">Convolutional Neural Network Implementation</p>
+                        <p class="project-date">Published: June 02, 2024</p>
+                        <p class="project-excerpt">In this project, the application of CNN in the domain of flower recognition, which has large implications for agriculture and marketing, is presented.</p>
+                        <div class="project-buttons">
+                            <button class="view-project-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dual-Band Antenna Project -->
+                <div class="project-card" data-category="antennas,electronics" data-project="dual-band-antenna">
+                    <div class="project-image">
+                        <img src="../assets/gagan-antenna.png" alt="Dual-Band Circularly Polarized Antenna - GAGAN Navigation System" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Dual-Band Circularly Polarized Antenna</h3>
+                        <p class="project-subtitle">GAGAN Navigation System</p>
+                        <p class="project-date">Published: May 21, 2024</p>
+                        <p class="project-excerpt">Design and simulation of a dual-band annular ring patch antenna operating at L1 (1575.42 MHz) and L5 (1176.45 MHz) frequencies for GPS-Aided GEO-Augmented Navigation applications.</p>
+                        <div class="project-buttons">
+                            <button class="view-project-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Heart Attack Prediction Project -->
+                <div class="project-card" data-category="machine-learning,bioengineering,algorithms" data-project="heart-attack-prediction">
+                    <div class="project-image">
+                        <img src="../assets/Heart-attack.png" alt="Machine Learning Models for Heart Attack Prediction" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Machine Learning Models for Heart Attack Prediction</h3>
+                        <p class="project-subtitle">Healthcare Analytics</p>
+                        <p class="project-date">Published: January 16, 2024</p>
+                        <p class="project-excerpt">This project is about the general analysis of machine learning models for heart attack prediction by using various analytical techniques to gain awareness of the structure and characteristics of the dataset.</p>
+                        <div class="project-buttons">
+                            <button class="view-project-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CMOS Op-Amp Project -->
+                <div class="project-card" data-category="electronics" data-project="cmos-opamp">
+                    <div class="project-image">
+                        <img src="../assets/cmos.png" alt="Two-Stage CMOS Operational Amplifier" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Two-Stage CMOS Operational Amplifier</h3>
+                        <p class="project-subtitle">65nm CMOS Technology</p>
+                        <p class="project-date">Published: January 07, 2024</p>
+                        <p class="project-excerpt">Optimized design achieving >57 dB gain, >220 MHz bandwidth, >55° phase margin, and 1.8 pF load capacitance using SPICE simulations in 65nm CMOS technology.</p>
+                        <div class="project-buttons">
+                            <button class="view-project-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wearable Devices Project -->
+                <div class="project-card" data-category="bioengineering,machine-learning,electronics" data-project="wearable-devices">
+                    <div class="project-image">
+                        <img src="../assets/labor.jpg" alt="Wearable Devices for Real-time Labor Monitoring" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Wearable Devices for Real-time Labor Monitoring</h3>
+                        <p class="project-subtitle">Preterm Labor Prediction</p>
+                        <p class="project-date">Published: June 18, 2023</p>
+                        <p class="project-excerpt">Machine learning-based wearable device for real-time monitoring of biosignals (ECG, EMG, EEG) to improve early detection of preterm labor and prenatal care.</p>
+                        <div class="project-buttons">
+                            <button class="view-project-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bioengineering ML Project -->
+                <div class="project-card" data-category="bioengineering,machine-learning" data-project="bioengineering-ml">
+                    <div class="project-image">
+                        <img src="../assets/ecg.jpg" alt="Machine Learning in Bioengineering - Biosignal Processing Survey" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Machine Learning in Bioengineering</h3>
+                        <p class="project-subtitle">Biosignal Processing Survey</p>
+                        <p class="project-date">Published: June 11, 2023</p>
+                        <p class="project-excerpt">Comprehensive survey of ML approaches for processing EEG, ECG, and EMG signals, enabling adaptive and intelligent systems for diagnosis, monitoring, and brain-computer interfaces.</p>
+                        <div class="project-buttons">
+                            <button class="view-project-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slot Antenna Project -->
+                <div class="project-card" data-category="antennas,electronics" data-project="slot-antenna">
+                    <div class="project-image">
+                        <img src="../assets/slot.png" alt="Slot Antenna Physical Properties Analysis" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Slot Antenna Physical Properties Analysis</h3>
+                        <p class="project-subtitle">Electromagnetic Properties Study</p>
+                        <p class="project-date">Published: February 08, 2023</p>
+                        <p class="project-excerpt">Analysis of how slot antenna electromagnetic properties are impacted by physical characteristics, focusing on resonant frequency and bandwidth optimization.</p>
+                        <div class="project-buttons">
+                            <button class="view-project-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Graph Theory Project -->
+                <div class="project-card" data-category="algorithms" data-project="graph-theory">
+                    <div class="project-image">
+                        <img src="../assets/graph.png" alt="Graph Theory Application in City Distance Calculation" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Graph Theory Application in City Distance Calculation</h3>
+                        <p class="project-subtitle">Route Optimization</p>
+                        <p class="project-date">Published: December 19, 2022</p>
+                        <p class="project-excerpt">Terminal-based program using graph theory and adjacency matrices to calculate shortest paths between seven major cities, demonstrating practical applications of data structures.</p>
+                        <div class="project-buttons">
+                            <button class="view-project-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Piezoelectric Materials Project -->
+                <div class="project-card" data-category="electronics" data-project="piezoelectric">
+                    <div class="project-image">
+                        <img src="../assets/piezo.jpg" alt="Piezoelectric Materials Study" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Piezoelectric Materials Study</h3>
+                        <p class="project-subtitle">Energy Harvesting Applications</p>
+                        <p class="project-date">Published: May 23, 2021</p>
+                        <p class="project-excerpt">A comprehensive study of piezoelectric materials, exploring their properties, applications in various industries, and their potential for future advancements in energy harvesting and storage.</p>
+                        <div class="project-buttons">
+                            <button class="view-project-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent">
+                <!-- Content will be dynamically loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Burak Erdil Biçer | 
+                <a href="mailto:burakerdilb@gmail.com">Email</a> | 
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/portfolio.js"></script>
+</body>
+</html>
