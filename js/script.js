@@ -27,7 +27,17 @@ document.addEventListener('DOMContentLoaded', function() {
         const navMenu = document.querySelector('.nav-menu');
         
         if (!hamburger || !navMenu) {
+            console.error('Hamburger or nav menu not found!');
             return;
+        }
+        
+        // Force hamburger to be visible on mobile
+        if (window.innerWidth <= 768) {
+            hamburger.style.display = 'flex';
+            hamburger.style.visibility = 'visible';
+            hamburger.style.opacity = '1';
+            hamburger.style.zIndex = '99999';
+            console.log('Forced hamburger to be visible on mobile');
         }
         
         function toggleMenu() {
