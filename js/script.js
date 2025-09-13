@@ -25,23 +25,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
     
-    console.log('Hamburger element:', hamburger);
-    console.log('Nav menu element:', navMenu);
-    
     if (hamburger && navMenu) {
-        hamburger.addEventListener('click', function() {
-            console.log('Hamburger clicked!');
-            console.log('Nav menu classes before:', navMenu.classList.toString());
-            console.log('Hamburger classes before:', hamburger.classList.toString());
-            
+        hamburger.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
             navMenu.classList.toggle('active');
             hamburger.classList.toggle('active');
-            
-            console.log('Nav menu classes after:', navMenu.classList.toString());
-            console.log('Hamburger classes after:', hamburger.classList.toString());
         });
-    } else {
-        console.log('Hamburger or nav menu not found!');
     }
     
     // Close mobile menu when clicking on nav links
