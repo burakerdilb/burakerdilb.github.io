@@ -2292,15 +2292,20 @@ section::before {
     }
     
     .mobile-photo {
-        display: block;
-        text-align: center;
-        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0 40px 0;
+        width: 100%;
     }
     
     .mobile-photo-container {
         width: 200px;
         height: 200px;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
 
@@ -2439,6 +2444,10 @@ section::before {
 @media (max-width: 480px) {
     .hero-layout {
         gap: 30px;
+    }
+    
+    .mobile-photo {
+        margin: 20px 0 35px 0;
     }
     
     .mobile-photo-container {
