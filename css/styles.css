@@ -260,6 +260,11 @@ section::before {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
+/* Mobile photo - hidden by default */
+.mobile-photo {
+    display: none;
+}
+
 .hero-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -2283,10 +2288,19 @@ section::before {
     }
     
     .hero-photo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 0;
+        display: none;
+    }
+    
+    .mobile-photo {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .mobile-photo-container {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
     }
     
 
@@ -2427,9 +2441,9 @@ section::before {
         gap: 30px;
     }
     
-    .photo-container {
-        width: 260px;
-        height: 260px;
+    .mobile-photo-container {
+        width: 160px;
+        height: 160px;
         margin: 0 auto;
     }
     
