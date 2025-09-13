@@ -247,14 +247,36 @@ section::before {
     height: 21px;
 }
 
-/* Force hamburger to show on mobile */
+/* Force hamburger to show on mobile - NUCLEAR OPTION */
 @media screen and (max-width: 768px) {
-    .navbar .hamburger {
+    .hamburger,
+    .navbar .hamburger,
+    div.hamburger {
         display: flex !important;
         visibility: visible !important;
         opacity: 1 !important;
-        background: rgba(255, 0, 0, 0.3) !important; /* Temporary red background to see it */
-        border: 1px solid red !important; /* Temporary border */
+        background: red !important;
+        border: 3px solid blue !important;
+        position: fixed !important;
+        top: 15px !important;
+        right: 15px !important;
+        z-index: 999999 !important;
+        width: 40px !important;
+        height: 30px !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        cursor: pointer !important;
+        padding: 5px !important;
+    }
+    
+    .hamburger span,
+    .navbar .hamburger span,
+    div.hamburger span {
+        background: white !important;
+        width: 100% !important;
+        height: 3px !important;
+        display: block !important;
+        margin: 0 !important;
     }
 }
 
