@@ -271,12 +271,11 @@ section::before {
     .navbar .hamburger span,
     div.hamburger span {
         background: #222 !important;
-        width: 24px !important;
-        height: 2px !important;
+        width: 25px !important;
+        height: 3px !important;
         display: block !important;
         margin: 0 !important;
         transition: all 0.3s ease !important;
-        border-radius: 1px !important;
     }
 }
 
@@ -307,10 +306,19 @@ section::before {
     display: none;
 }
 
-/* Ensure hamburger is hidden on desktop and dropdowns work normally */
+/* Ensure hamburger is completely hidden on desktop and dropdowns work normally */
 @media (min-width: 769px) {
-    .hamburger {
+    .hamburger,
+    .navbar .hamburger,
+    div.hamburger {
         display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        position: absolute !important;
+        left: -9999px !important;
+        top: -9999px !important;
+        width: 0 !important;
+        height: 0 !important;
     }
     
     /* Ensure dropdown functionality works on desktop */
@@ -2411,7 +2419,7 @@ section::before {
     /* Show only top-level nav items on mobile */
     .nav-menu > li {
         display: block !important;
-        margin: 12px 0 !important;
+        margin: 6px 0 !important;
         opacity: 0 !important;
         transform: translateY(20px) !important;
         transition: all 0.3s ease !important;
