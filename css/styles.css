@@ -237,11 +237,14 @@ section::before {
     display: none;
     flex-direction: column;
     cursor: pointer;
-    z-index: 1003;
+    z-index: 99999;
     position: relative;
-    padding: 10px;
+    padding: 8px;
     background: transparent;
     border: none;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
 }
 
 .hamburger span {
@@ -269,6 +272,13 @@ section::before {
 /* Mobile photo - hidden by default */
 .mobile-photo {
     display: none;
+}
+
+/* Ensure hamburger is hidden on desktop */
+@media (min-width: 769px) {
+    .hamburger {
+        display: none !important;
+    }
 }
 
 .hero-layout {
@@ -2246,22 +2256,22 @@ section::before {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    /* Show hamburger menu */
+    /* Show hamburger menu on mobile only */
     .hamburger {
         display: flex !important;
         z-index: 99999 !important;
         position: relative !important;
-        background: red !important; /* Temporary - to make it visible */
     }
     
-    /* Hide desktop nav menu */
+    /* Mobile nav menu styling */
     .nav-menu {
         position: fixed !important;
         top: 0 !important;
         left: -100% !important;
         width: 100% !important;
         height: 100vh !important;
-        background: white !important;
+        background: rgba(255, 255, 255, 0.98) !important;
+        backdrop-filter: blur(10px) !important;
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
@@ -2271,7 +2281,7 @@ section::before {
         padding: 0 !important;
         margin: 0 !important;
         list-style: none !important;
-        box-shadow: 0 0 20px rgba(0,0,0,0.3) !important;
+        box-shadow: 0 0 30px rgba(0,0,0,0.2) !important;
     }
     
     /* Show mobile nav menu when active */
@@ -2282,22 +2292,32 @@ section::before {
     
     /* Style nav menu items */
     .nav-menu li {
-        margin: 20px 0 !important;
+        margin: 15px 0 !important;
         opacity: 1 !important;
         transform: none !important;
-        transition: none !important;
+        transition: all 0.3s ease !important;
     }
     
     .nav-menu li a {
-        font-size: 1.5rem !important;
-        padding: 15px 30px !important;
+        font-size: 1.2rem !important;
+        padding: 12px 25px !important;
         display: block !important;
         color: #222 !important;
         text-decoration: none !important;
+        border-radius: 8px !important;
+        transition: all 0.3s ease !important;
+        font-weight: 500 !important;
     }
     
     .nav-menu li a:hover {
         color: #d7b265 !important;
+        background: rgba(215, 178, 101, 0.1) !important;
+        transform: translateY(-2px) !important;
+    }
+    
+    /* Hide dropdown arrows on mobile */
+    .nav-menu .fas.fa-chevron-down {
+        display: none !important;
     }
     
     .hamburger.active span:nth-child(2) {

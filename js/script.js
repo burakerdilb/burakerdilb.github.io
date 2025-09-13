@@ -21,91 +21,42 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // BULLETPROOF Mobile navigation toggle
+    // Mobile navigation toggle
     function initMobileMenu() {
         const hamburger = document.querySelector('.hamburger');
         const navMenu = document.querySelector('.nav-menu');
         
-        console.log('=== MOBILE MENU INIT ===');
-        console.log('Hamburger found:', hamburger);
-        console.log('Nav menu found:', navMenu);
-        
-        if (!hamburger) {
-            console.error('HAMBURGER NOT FOUND!');
+        if (!hamburger || !navMenu) {
             return;
         }
-        
-        if (!navMenu) {
-            console.error('NAV MENU NOT FOUND!');
-            return;
-        }
-        
-        // Make hamburger visible and clickable
-        hamburger.style.display = 'flex';
-        hamburger.style.cursor = 'pointer';
-        hamburger.style.zIndex = '99999';
-        
-        // Force nav menu to be hidden initially
-        navMenu.style.left = '-100%';
-        navMenu.style.display = 'flex';
         
         function toggleMenu() {
-            console.log('TOGGLE MENU CALLED!');
             const isActive = navMenu.classList.contains('active');
-            console.log('Currently active:', isActive);
             
             if (isActive) {
                 navMenu.classList.remove('active');
                 hamburger.classList.remove('active');
-                navMenu.style.left = '-100%';
-                console.log('Menu CLOSED');
             } else {
                 navMenu.classList.add('active');
                 hamburger.classList.add('active');
-                navMenu.style.left = '0';
-                console.log('Menu OPENED');
             }
         }
         
-        // Multiple event listeners for maximum compatibility
+        // Event listeners for mobile menu toggle
         hamburger.addEventListener('click', function(e) {
-            console.log('CLICK EVENT FIRED!');
             e.preventDefault();
             e.stopPropagation();
             toggleMenu();
         });
         
         hamburger.addEventListener('touchstart', function(e) {
-            console.log('TOUCH EVENT FIRED!');
             e.preventDefault();
             toggleMenu();
         });
-        
-        hamburger.addEventListener('mousedown', function(e) {
-            console.log('MOUSEDOWN EVENT FIRED!');
-            e.preventDefault();
-            toggleMenu();
-        });
-        
-        // Make sure hamburger is visible on mobile
-        if (window.innerWidth <= 768) {
-            hamburger.style.display = 'flex';
-            console.log('Forced hamburger to be visible on mobile');
-        }
     }
     
-    // Initialize immediately
+    // Initialize mobile menu
     initMobileMenu();
-    
-    // Also initialize on load
-    window.addEventListener('load', initMobileMenu);
-    
-    // And on resize
-    window.addEventListener('resize', function() {
-        if (window.innerWidth <= 768) {
-            initMobileMenu();
-        }
-    });
     
     // Close mobile menu when clicking on nav links
     const navLinks = document.querySelectorAll('.nav-menu a');
