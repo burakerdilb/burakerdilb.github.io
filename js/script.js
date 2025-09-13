@@ -25,13 +25,37 @@ document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
     
+    console.log('Mobile menu elements found:', { hamburger, navMenu });
+    
     if (hamburger && navMenu) {
         hamburger.addEventListener('click', function(e) {
             e.preventDefault();
             e.stopPropagation();
+            console.log('Hamburger clicked!');
+            
+            const isActive = navMenu.classList.contains('active');
+            console.log('Menu currently active:', isActive);
+            
+            if (isActive) {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+                console.log('Menu closed');
+            } else {
+                navMenu.classList.add('active');
+                hamburger.classList.add('active');
+                console.log('Menu opened');
+            }
+        });
+        
+        // Also add touch event for mobile
+        hamburger.addEventListener('touchstart', function(e) {
+            e.preventDefault();
+            console.log('Hamburger touched!');
             navMenu.classList.toggle('active');
             hamburger.classList.toggle('active');
         });
+    } else {
+        console.error('Mobile menu elements not found!');
     }
     
     // Close mobile menu when clicking on nav links
