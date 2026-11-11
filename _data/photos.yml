@@ -1,4 +1,64 @@
-# Photo gallery. "place" and "city" are shown on hover; files live in images/photos/.
+# Photo gallery. "place" (optional) and "city" are shown on hover; files live in images/photos/.
+- file: img-4751.jpg
+  place: "Sarıyer"
+  key: sariyer
+  city: "Istanbul"
+  date: 2026-09-20
+  orientation: portrait
+- file: img-7732.jpg
+  place: "Beyoğlu"
+  key: beyoglu
+  city: "Istanbul"
+  date: 2026-09-13
+  orientation: portrait
+- file: img-4117.jpg
+  place: "Simena Kalesi"
+  key: simena_kalesi
+  city: "Kekova"
+  date: 2026-08-22
+  orientation: portrait
+- file: img-1415.jpg
+  place: "Cuban Parade"
+  key: cuban_parade
+  city: "Barcelona"
+  date: 2026-05-25
+  orientation: portrait
+- file: img-7009.jpg
+  city: "Rennes"
+  date: 2026-05-15
+  orientation: portrait
+- file: img-6830.jpg
+  place: "La Bastille"
+  key: la_bastille
+  city: "Grenoble"
+  date: 2026-05-09
+  orientation: portrait
+- file: img-6518.jpg
+  place: "Monument aux morts"
+  key: monument_aux_morts
+  city: "Versailles"
+  date: 2025-11-11
+  orientation: portrait
+- file: img-6417.jpg
+  place: "Mount Lycabettus"
+  key: mount_lycabettus
+  city: "Athens"
+  date: 2025-10-26
+  orientation: portrait
+- file: img-6316.jpg
+  place: "Plaka"
+  key: plaka
+  city: "Athens"
+  date: 2025-10-26
+  orientation: portrait
+- file: img-6183.jpg
+  city: "Milan"
+  date: 2025-10-24
+  orientation: portrait
+- file: img-6124.jpg
+  city: "Milan"
+  date: 2025-10-24
+  orientation: portrait
 - file: img-6487.jpg
   place: "La Tour Zamansky"
   key: la_tour_zamansky

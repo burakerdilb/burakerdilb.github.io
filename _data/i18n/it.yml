@@ -333,6 +333,13 @@ photos:
     amsterdam: Amsterdam
     brussels: Bruxelles
     kayseri: Kayseri
+    versailles: Versailles
+    grenoble: Grenoble
+    rennes: Rennes
+    kekova: Kekova
+    milan: Milano
+    athens: Atene
+    barcelona: Barcellona
   places:
     la_tour_zamansky: "Torre Zamansky"
     cathedrale_notre_dame: "Cattedrale di Notre-Dame"
@@ -362,6 +369,14 @@ photos:
     museumplein: "Museumplein"
     basilica_of_saint_nicholas: "Basilica di San Nicola"
     erkilet_international_airport: "Aeroporto internazionale di Erkilet"
+    monument_aux_morts: "Monumento ai caduti"
+    la_bastille: "La Bastiglia"
+    beyoglu: "Beyoğlu"
+    sariyer: "Sarıyer"
+    simena_kalesi: "Castello di Simena"
+    plaka: "Plaka"
+    mount_lycabettus: "Monte Licabetto"
+    cuban_parade: "Parata cubana"
 
 notfound:
   title: Pagina non trovata
