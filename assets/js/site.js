@@ -144,7 +144,19 @@
       img.src = a.getAttribute('href');
       img.alt = a.getAttribute('aria-label');
       var c = a.querySelector('.gallery-caption');
-      cap.innerHTML = '<span class="place">' + c.querySelector('.place').textContent + '</span> · <span class="city">' + c.querySelector('.city').textContent + '</span>';
+      var place = c.querySelector('.place');
+      cap.textContent = '';
+      if (place) {
+        var p = document.createElement('span');
+        p.className = 'place';
+        p.textContent = place.textContent;
+        cap.appendChild(p);
+        cap.appendChild(document.createTextNode(' · '));
+      }
+      var city = document.createElement('span');
+      city.className = 'city';
+      city.textContent = c.querySelector('.city').textContent;
+      cap.appendChild(city);
       box.hidden = false;
       document.body.classList.add('lightbox-open');
     }
@@ -152,7 +164,8 @@
     // Keep alt text and labels in the current language.
     function labelPhotos() {
       links.forEach(function (a) {
-        var label = a.querySelector('.place').textContent + ', ' + a.querySelector('.city span').textContent;
+        var place = a.querySelector('.place');
+        var label = (place ? place.textContent + ', ' : '') + a.querySelector('.city span').textContent;
         a.setAttribute('aria-label', label);
         a.querySelector('img').setAttribute('alt', label);
       });

@@ -333,6 +333,13 @@ photos:
     amsterdam: Amsterdam
     brussels: Brüksel
     kayseri: Kayseri
+    versailles: Versailles
+    grenoble: Grenoble
+    rennes: Rennes
+    kekova: Kekova
+    milan: Milano
+    athens: Atina
+    barcelona: Barselona
   places:
     la_tour_zamansky: "Zamansky Kulesi"
     cathedrale_notre_dame: "Notre-Dame Katedrali"
@@ -362,6 +369,14 @@ photos:
     museumplein: "Museumplein"
     basilica_of_saint_nicholas: "Aziz Nikolaos Bazilikası"
     erkilet_international_airport: "Erkilet Havalimanı"
+    monument_aux_morts: "Savaş Anıtı"
+    la_bastille: "Bastille Kalesi"
+    beyoglu: "Beyoğlu"
+    sariyer: "Sarıyer"
+    simena_kalesi: "Simena Kalesi"
+    plaka: "Plaka"
+    mount_lycabettus: "Likavitos Tepesi"
+    cuban_parade: "Küba Temalı Geçit Töreni"
 
 notfound:
   title: Sayfa bulunamadı
