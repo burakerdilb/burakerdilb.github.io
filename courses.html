@@ -1,0 +1,33 @@
+---
+title: Courses
+permalink: /courses/
+i18n_title: courses.title
+redirect_from:
+  - /courses/ehb-courses
+  - /courses/uck-courses
+---
+{%- assign t = site.data.i18n.en.courses -%}
+<p class="lead" data-i18n="courses.intro">{{ t.intro }}</p>
+
+<div class="course-search">
+  <label class="visually-hidden" for="course-search" data-i18n="courses.search_label">{{ t.search_label }}</label>
+  <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+  <input type="search" id="course-search" autocomplete="off" placeholder="{{ t.search_placeholder }}" data-i18n-attr="placeholder:courses.search_placeholder">
+</div>
+<p class="muted course-empty" id="course-empty" hidden data-i18n="courses.no_results">{{ t.no_results }}</p>
+
+{%- assign groups = "su,ehb,uck" | split: "," -%}
+{%- for g in groups -%}
+<section class="course-group">
+<h2 class="section-title" id="{{ g }}" data-i18n="courses.{{ g }}.title">{{ t[g].title }}</h2>
+<p class="muted" data-i18n="courses.{{ g }}.desc">{{ t[g].desc }}</p>
+<ul class="course-list">
+  {%- for c in site.data.courses[g] -%}
+  <li data-search="{{ c.title }} {{ c.code }}">
+    <span><span data-i18n="courses.names.{{ c.code | downcase | replace: ' ', '_' }}">{{ c.title }}</span> <span class="code">{{ c.code }}</span></span>
+    {%- if c.notes -%}<a class="notes-link" href="{{ c.notes }}" target="_blank" rel="noopener" data-i18n="ui.notes">Notes</a>{%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>
+</section>
+{%- endfor %}

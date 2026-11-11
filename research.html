@@ -1,0 +1,33 @@
+---
+title: Research
+permalink: /research/
+redirect_from:
+  - /publications/
+i18n_title: publications.title
+---
+{%- assign t = site.data.i18n.en.publications -%}
+<h2 class="section-title" data-i18n="publications.theses_h">{{ t.theses_h }}</h2>
+<ul class="compact-list">
+  {%- for th in t.theses -%}
+  {%- assign k = "publications.theses." | append: forloop.index0 -%}
+  <li>
+    <span class="l">
+      <span data-i18n="{{ k }}.title">{{ th.title }}</span>
+      <span class="sub" data-i18n="{{ k }}.venue">{{ th.venue }}</span>
+    </span>
+    <span class="r" data-i18n="{{ k }}.year">{{ th.year }}</span>
+  </li>
+  {%- endfor -%}
+</ul>
+
+<h2 class="section-title" data-i18n="publications.profiles_h">{{ t.profiles_h }}</h2>
+<ul class="profile-links">
+  <li>
+    <a href="{{ site.author.scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+    <span class="desc" data-i18n="publications.scholar_desc">{{ t.scholar_desc }}</span>
+  </li>
+  <li>
+    <a href="{{ site.author.figshare }}" target="_blank" rel="noopener">Figshare</a>
+    <span class="desc" data-i18n="publications.figshare_desc">{{ t.figshare_desc }}</span>
+  </li>
+</ul>

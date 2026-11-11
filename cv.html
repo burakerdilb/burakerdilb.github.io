@@ -1,0 +1,119 @@
+---
+title: Curriculum Vitae
+permalink: /cv/
+i18n_title: cv.title
+redirect_from:
+  - /resume/
+  - /resume
+---
+{%- assign cv = site.data.i18n.en.cv -%}
+<h2 class="section-title" id="education" data-i18n="cv.sections.education">{{ cv.sections.education }}</h2>
+{%- for e in cv.education -%}
+{%- assign k = "cv.education." | append: forloop.index0 -%}
+<div class="entry">
+  <div class="entry-head">
+    <p class="entry-title" data-i18n="{{ k }}.school">{{ e.school }}</p>
+    <p class="entry-meta" data-i18n="{{ k }}.period">{{ e.period }}</p>
+  </div>
+  <div class="entry-head">
+    <p class="entry-org" data-i18n="{{ k }}.degree">{{ e.degree }}</p>
+    <span class="entry-place" data-i18n="{{ k }}.place">{{ e.place }}</span>
+  </div>
+  {%- if e.degree2 -%}<p class="entry-org entry-degree2" data-i18n="{{ k }}.degree2">{{ e.degree2 }}</p>{%- endif -%}
+</div>
+{%- endfor -%}
+
+<h2 class="section-title" id="experience" data-i18n="cv.sections.experience">{{ cv.sections.experience }}</h2>
+{%- for x in cv.experience -%}
+{%- assign k = "cv.experience." | append: forloop.index0 -%}
+<div class="entry">
+  <div class="entry-head">
+    <p class="entry-title" data-i18n="{{ k }}.title">{{ x.title }}</p>
+    <p class="entry-meta" data-i18n="{{ k }}.period">{{ x.period }}</p>
+  </div>
+  <div class="entry-head">
+    <p class="entry-org" data-i18n="{{ k }}.org">{{ x.org }}</p>
+    <span class="entry-place" data-i18n="{{ k }}.place">{{ x.place }}</span>
+  </div>
+  {%- if x.bullets -%}
+  <ul>
+    {%- for b in x.bullets -%}
+    <li data-i18n="{{ k }}.bullets.{{ forloop.index0 }}">{{ b }}</li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</div>
+{%- endfor -%}
+
+<h2 class="section-title" id="projects" data-i18n="cv.sections.projects">{{ cv.sections.projects }}</h2>
+<ul class="compact-list">
+  {%- for p in cv.projects -%}
+  {%- assign k = "cv.projects." | append: forloop.index0 -%}
+  <li>
+    <span class="l">
+      <span data-i18n="{{ k }}.title">{{ p.title }}</span>
+      <span class="sub" data-i18n="{{ k }}.context">{{ p.context }}</span>
+    </span>
+    <span class="r" data-i18n="{{ k }}.date">{{ p.date }}</span>
+  </li>
+  {%- endfor -%}
+</ul>
+
+<h2 class="section-title" id="certifications" data-i18n="cv.sections.certifications">{{ cv.sections.certifications }}</h2>
+<ul class="compact-list">
+  {%- for c in cv.certifications -%}
+  {%- assign k = "cv.certifications." | append: forloop.index0 -%}
+  <li>
+    <span class="l">
+      <span data-i18n="{{ k }}.title">{{ c.title }}</span>
+      <span class="sub" data-i18n="{{ k }}.org">{{ c.org }}</span>
+    </span>
+    <span class="r" data-i18n="{{ k }}.date">{{ c.date }}</span>
+  </li>
+  {%- endfor -%}
+</ul>
+
+<h2 class="section-title" id="activities" data-i18n="cv.sections.activities">{{ cv.sections.activities }}</h2>
+{%- for a in cv.activities -%}
+{%- assign k = "cv.activities." | append: forloop.index0 -%}
+<div class="entry">
+  <div class="entry-head">
+    <p class="entry-title" data-i18n="{{ k }}.title">{{ a.title }}</p>
+    <p class="entry-meta" data-i18n="{{ k }}.period">{{ a.period }}</p>
+  </div>
+  <div class="entry-head">
+    <p class="entry-org" data-i18n="{{ k }}.org">{{ a.org }}</p>
+    <span class="entry-place" data-i18n="{{ k }}.place">{{ a.place }}</span>
+  </div>
+  {%- if a.bullets -%}
+  <ul>
+    {%- for b in a.bullets -%}
+    <li data-i18n="{{ k }}.bullets.{{ forloop.index0 }}">{{ b }}</li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</div>
+{%- endfor -%}
+
+<div class="two-col">
+  <section>
+    <h2 class="section-title" id="skills" data-i18n="cv.sections.skills">{{ cv.sections.skills }}</h2>
+    <dl class="skills">
+      {%- for s in cv.skills -%}
+      {%- assign k = "cv.skills." | append: forloop.index0 -%}
+      <dt data-i18n="{{ k }}.label">{{ s.label }}</dt>
+      <dd data-i18n="{{ k }}.items">{{ s.items }}</dd>
+      {%- endfor -%}
+    </dl>
+  </section>
+  <section>
+    <h2 class="section-title" id="languages" data-i18n="cv.sections.languages">{{ cv.sections.languages }}</h2>
+    <dl class="skills">
+      {%- for l in cv.languages -%}
+      {%- assign k = "cv.languages." | append: forloop.index0 -%}
+      <dt data-i18n="{{ k }}.name">{{ l.name }}</dt>
+      <dd data-i18n="{{ k }}.level">{{ l.level }}</dd>
+      {%- endfor -%}
+    </dl>
+  </section>
+</div>

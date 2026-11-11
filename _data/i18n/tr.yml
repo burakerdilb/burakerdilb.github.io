@@ -1,0 +1,369 @@
+# Türkçe
+nav:
+  home: Ana Sayfa
+  cv: Özgeçmiş
+  courses: Dersler
+  publications: Araştırma
+  photos: Fotoğraflar
+
+ui:
+  skip: İçeriğe geç
+  language: Dil
+  theme_toggle: Karanlık modu aç/kapat
+  main_nav: "Ana menü"
+  photo: "Fotoğraf"
+  notes: Notlar
+  close: Kapat
+  previous: Önceki
+  next: Sonraki
+  location: Roma, İtalya
+
+home:
+  title: Ana Sayfa
+  hello: Burak Erdil Biçer
+  role: "Roma Sapienza Üniversitesi'nde doktora öğrencisi"
+  dept: "<a href=\"https://diet.web.uniroma1.it/\" target=\"_blank\" rel=\"noopener\">Bilgi Mühendisliği, Elektronik ve Telekomünikasyon Bölümü (DIET)</a>"
+  interests_h: "Araştırma alanları:"
+  interests: "antenler, metamalzemeler, uygulamalı elektromanyetik, makine öğrenmesi"
+  intro:
+    - "Antenler, uygulamalı elektromanyetik ve kablosuz sistemler üzerine çalışan bir elektronik ve haberleşme mühendisiyim. Kasım 2026'dan itibaren <a href=\"https://www.uniroma1.it\" target=\"_blank\" rel=\"noopener\">Roma Sapienza Üniversitesi</a>'nde Bilgi ve İletişim Teknolojileri (ICT) alanında doktora öğrencisiyim."
+    - "<a href=\"https://www.sorbonne-universite.fr\" target=\"_blank\" rel=\"noopener\">Sorbonne Üniversitesi</a>'nden (Paris) Haberleşen Sistemler alanında yüksek lisans derecem, <a href=\"https://www.itu.edu.tr\" target=\"_blank\" rel=\"noopener\">İstanbul Teknik Üniversitesi</a>'nden ise Elektronik ve Haberleşme Mühendisliği ile Uçak Mühendisliği alanlarında iki lisans derecem var."
+    - "Yüksek lisans araştırmamı GeePs'te (Paris) Ka bandında çalışan bir Bull's Eye sızıntılı dalga anteninin tasarımı ve empedans uyumlaması üzerine yaptım. Daha önce beyin izleme için mikrodalga görüntüleme, faz dizili antenler, biyobozunur sensörler ve bilgisayarlı görü ile biyosinyal işlemede makine öğrenmesi uygulamaları üzerine çalıştım."
+  beyond: "Laboratuvar dışında Türkiye'nin en büyük öğrenci medyası <a href=\"https://ari24.com\" target=\"_blank\" rel=\"noopener\">arı24</a>'ün Genel Yayın Yönetmenliğini yaptım; uzun yıllar <a href=\"https://www.worldcubeassociation.org/persons/2017BICE01\" target=\"_blank\" rel=\"noopener\">World Cube Association</a> yarışmacısı ve organizatörü oldum, birçok Türkiye rekoru kırdım. Seyahat etmeyi, fotoğraf çekmeyi ve kayak yapmayı seviyorum; lisede yüzme Türkiye Şampiyonası'nda yarıştım."
+  news_h: "Haberler"
+  news:
+    - date: "2026-11"
+      text: "Roma Sapienza Üniversitesi'nde Bilgi ve İletişim Teknolojileri doktorama başladım; Prof. Davide Comite ve Prof. Guido Valerio ile çalışıyorum."
+    - date: "2026-07"
+      text: "GeePs'te Ka bandında çalışan Bull's Eye sızıntılı dalga anteni üzerine yüksek lisans tezimi tamamladım."
+    - date: "2026-02"
+      text: "Paris'te GeePs'e araştırma stajyeri olarak katıldım ve Prof. Guido Valerio ile çalışmaya başladım."
+    - date: "2025-09"
+      text: "Sorbonne Üniversitesi'nde ESoA'nın \"Exploiting Symmetries in Artificial Materials for Antenna Applications\" kursunu tamamladım."
+    - date: "2025-06"
+      text: "İTÜ'de iki bitirme projemi sundum: mikrodalga ile beyin görüntüleme ve interdijital kapasitörlü faz dizili anten."
+
+cv:
+  title: Özgeçmiş
+  sections:
+    education: Eğitim
+    experience: Deneyim
+    projects: Akademik projeler
+    certifications: Sertifikalar
+    activities: Etkinlikler
+    skills: Beceriler
+    languages: Diller
+  education:
+    - school: Roma Sapienza Üniversitesi
+      degree: Bilgi ve İletişim Teknolojileri (ICT) Doktorası
+      period: Kas 2026 – Eki 2029
+      place: Roma, İtalya
+    - school: Sorbonne Üniversitesi – Fen ve Mühendislik Fakültesi
+      degree: Yüksek Lisans, Haberleşen Sistemler · 16,48/20 · Mention Très Bien
+      period: 2025 – 2026
+      place: Paris, Fransa
+    - school: İstanbul Teknik Üniversitesi
+      degree: Lisans, Elektronik ve Haberleşme Mühendisliği · 3,56/4,00
+      period: 2020 – 2025
+      place: İstanbul, Türkiye
+      degree2: "Lisans, Uçak Mühendisliği (Çift anadal) · 3,37/4,00"
+  experience:
+    - title: Lisansüstü Araştırma Stajyeri
+      org: Paris Elektrik ve Elektronik Mühendisliği Laboratuvarı (GeePs)
+      period: Şub 2026 – Tem 2026
+      place: Paris, Fransa
+      bullets:
+        - Prof. Guido Valerio danışmanlığında, 29,7–31,5 GHz Ka bandında çalışan tamamen metal, oluklu bir Bull's Eye sızıntılı dalga antenini CST Studio Suite ve ANSYS HFSS ile tasarladım ve karakterize ettim.
+        - Dalga kılavuzu besleme geçişi için MATLAB'da yarı analitik, tam dalga destekli bir empedans uyumlama yöntemi geliştirdim; kapasitif irisleri kaba kuvvet parametre taramalarına ihtiyaç duymadan tasarladım.
+        - Yakın alan açıklık verisini ışıma örüntülerine bağlayan bir Python açıklık-uzak alan araç seti geliştirdim; sonuçlar tüm bant boyunca CST tam dalga sonuçlarıyla yakın uyum gösterdi.
+        - Frekansa bağlı hüzme yönlendirme için sızıntılı modun karmaşık yayılma sabitini bir dispersiyon çıkarma prosedürüyle elde ettim; halka maskeleme ve yarık bazlı katkı analizleriyle açıklık kalitesini sınırlayan azimutal rezonansları belirleyip yay segmentasyonu temelli çözümler önerdim.
+        - ESoA/GENIUS doktora kursu "Anten Uygulamaları için Yapay Malzemelerde Simetrilerin Kullanımı"na katıldım.
+    - title: Lisans Araştırma Asistanı
+      org: İTÜ Tıbbi Cihazlar Araştırma ve Uygulama Laboratuvarı
+      period: Eyl 2024 – Tem 2025
+      place: İstanbul, Türkiye
+      bullets:
+        - Kafa içi kanamanın mikrodalga görüntülemeyle sürekli izlenmesine yönelik sanal prototipin tasarımına liderlik ettim; kırınım sınırlarını aşmak ve çözünürlüğü artırmak için makine öğrenmesi çözümleri kullandım.
+        - ANSYS HFSS, CST ve Altair Feko ile sayısal doğrulama yaptım; görüntü netliğini iyileştiren Python tabanlı bir sinir ağı modeli geliştirdim.
+    - title: Lisans Araştırma Asistanı
+      org: İTÜ Havacılık Araştırma Merkezi (ITU-ARC)
+      period: Eyl 2024 – Haz 2025
+      place: İstanbul, Türkiye
+      bullets:
+        - 2,4 GHz faz dizili anteni HFSS'te tasarlayıp simüle ettim, ürettim ve hüzme yönlendirme kabiliyetini test ettim.
+        - Faz kaydırıcı eleman olarak pasif bir interdijital kapasitörü (IDC) MATLAB'da tasarlayıp iteratif olarak optimize ettim.
+        - Simüle edilen (33,5°) ve ölçülen (30°) hüzme açılarını karşılaştırarak üretilen IDC ile pasif hüzme yönlendirmeyi doğruladım.
+    - title: Makine Öğrenmesi Mühendisliği Stajyeri
+      org: Baykar Teknoloji
+      period: Ağu 2023 – Eyl 2023
+      place: İstanbul, Türkiye
+      bullets:
+        - Üretim hattının verimliliğini artırmak için Python, OpenCV ve TensorFlow ile nesne tespiti, tanıma ve kalite kontrol algoritmaları geliştirdim.
+    - title: Test Mühendisliği Stajyeri
+      org: Aselsan
+      period: Haz 2023 – Tem 2023
+      place: Ankara, Türkiye
+      bullets:
+        - LoRa E32 modülleri ve Arduino Uno ile uzun menzilli haberleşme düzeneği kurdum; UART hızı, parite ve güç gibi LoRa E32 parametrelerini ayarlayan bir C# arayüzü geliştirdim.
+    - title: Lisans Araştırma Asistanı
+      org: Bountenna Antenler ve Yayılım Araştırma Laboratuvarı
+      period: Kas 2022 – Haz 2023
+      place: İstanbul, Türkiye
+      bullets:
+        - Doç. Dr. Sema Dumanlı danışmanlığında IoHT uygulamaları için biyobozunur sensör ve fantom tasarımına katkı sağladım.
+        - HFSS'te bir yarık anteni üzerinde parametrik çalışma yaparak yarık uzunluğu, taban yüksekliği ve besleme kaymasının rezonans frekansı ve bant genişliğine etkisini inceledim.
+        - VNA ve yankısız oda gibi RF ölçüm ekipmanlarıyla uygulamalı deneyim kazandım.
+        - IEEE AP/MTT/EMC/ED Türkiye Ortak Şubesi üyesi olarak akademik konuşmalar ve teknik ağ kurma etkinlikleri düzenledim.
+    - title: Yazılım Mühendisliği Stajyeri
+      org: Türk Havacılık ve Uzay Sanayii (TUSAŞ)
+      period: Kas 2022 – May 2023
+      place: İstanbul, Türkiye
+      bullets:
+        - C ve C++ ile havacılık yazılımları geliştirip test ettim; aviyonik ve sistem bileşenleri, simülasyonlar ve hata ayıklama konularında mühendislerle çalıştım.
+        - SKY Experience Staj Programı kapsamında Makine Öğrenmesi, Sistem Mühendisliği, Temel Uçuşa Elverişlilik ve Mühendislik Temelleri sertifikalarını tamamladım.
+  projects:
+    - title: Bull's Eye Sızıntılı Dalga Anteninin Tasarımı ve Empedans Uyumlaması
+      context: Haberleşen Sistemler yüksek lisans projesi · GeePs
+      date: Tem 2026
+    - title: Mikrodalga Görüntüleme ile Beynin İzlenmesi
+      context: Elektronik ve Haberleşme Mühendisliği bitirme projesi
+      date: Haz 2025
+    - title: İnterdijital Kapasitör ile Faz Dizili Anten Tasarımı
+      context: Uçak Mühendisliği bitirme projesi
+      date: Haz 2025
+    - title: Evrişimli Sinir Ağı ile Çiçek Tanıma
+      context: Yapay Sinir Ağları dersi
+      date: Haz 2024
+    - title: Çift Bantlı Dairesel Polarizasyonlu Halka Yama Anten
+      context: Antenler dersi
+      date: May 2024
+    - title: Kalp Krizi Tahmini için Makine Öğrenmesi Modelleri
+      context: Yapay Sinir Ağları dersi
+      date: Oca 2024
+    - title: İki Kademeli CMOS İşlemsel Kuvvetlendirici Tasarımı
+      context: Analog Elektronik dersi
+      date: Oca 2024
+    - title: "Doğumun Gerçek Zamanlı İzlenmesi için Giyilebilir Cihazlar: Erken Doğum Öngörücüsü"
+      context: Tıpta Bilgisayar Destekli Cihazlar dersi
+      date: Haz 2023
+    - title: Biyosinyal İşleme için Biyomühendislikte Makine Öğrenmesi Yaklaşımları
+      context: Makine Öğrenmesi dersi
+      date: Haz 2023
+    - title: Yarık Antenin Fiziksel Özelliklerinin Etkileri
+      context: Bountenna Antenler ve Yayılım Araştırma Laboratuvarı
+      date: Şub 2023
+  certifications:
+    - title: Anten Uygulamaları için Yapay Malzemelerde Simetrilerin Kullanımı
+      org: European School of Antennas
+      date: Eyl 2025
+    - title: Evalang Fransızca Sınavı (A2)
+      org: France Éducation International
+      date: Ağu 2025
+    - title: "GRE: 315 (Q 168, V 147, AW 3,5)"
+      org: Educational Testing Service
+      date: Kas 2024
+    - title: "TOEFL iBT: 101/120 (CEFR C1)"
+      org: Educational Testing Service
+      date: Eyl 2024
+    - title: Machine Learning Specialization
+      org: DeepLearning.AI
+      date: Eyl 2023
+    - title: Advanced Learning Algorithms
+      org: DeepLearning.AI
+      date: Eyl 2023
+    - title: Derin Öğrenmeye Giriş
+      org: Global AI Hub
+      date: Haz 2023
+    - title: Makine Öğrenmesine Giriş
+      org: TUSAŞ
+      date: May 2023
+  activities:
+    - title: Genel Yayın Yönetmeni
+      org: arı24 Öğrenci Medyası
+      period: Eyl 2022 – Haz 2024
+      place: İstanbul, Türkiye
+      bullets:
+        - Türkiye'nin en büyük öğrenci medyası girişiminde üniversite öğrencileri için nitelikli ve güncel içerik üretilmesini sağladım.
+        - Editoryal standartları uyguladım, özgün içerikler oluşturdum ve kampüs etkinliklerinin zamanında haberleştirilmesini yönettim.
+    - title: Üye
+      org: IEEE AP/MTT/EMC/ED Türkiye Ortak Şubesi
+      period: Kas 2022 – Haz 2023
+      place: İstanbul, Türkiye
+      bullets:
+        - Alanın önde gelen araştırmacılarıyla iletişime geçip akademik konuşmalar düzenledim.
+        - Öğrencilerle araştırmacıları bir araya getiren teknik oturumların ve ağ kurma etkinliklerinin düzenlenmesine yardımcı oldum.
+    - title: Organizatör / Yarışmacı
+      org: World Cube Association
+      period: Ağu 2017 – Eyl 2021
+      place: İstanbul, Türkiye
+      bullets:
+        - Dünyanın farklı yerlerinde resmî WCA yarışmaları düzenledim ve yarıştım.
+        - 3x3 Rubik Küpü dâhil birçok Türkiye rekoru kırdım.
+  skills:
+    - label: Programlama
+      items: Python, C, C++, C#, MATLAB
+    - label: RF tasarımı
+      items: ANSYS HFSS, CST Studio Suite, Altair Feko, Keysight ADS, Cadence AWR
+    - label: CAD / PCB
+      items: KiCad, Cadence, LTspice, SolidWorks, CATIA
+    - label: Ölçüm
+      items: VNA, yankısız oda, RF test ekipmanları
+  languages:
+    - name: Türkçe
+      level: Ana dil
+    - name: İngilizce
+      level: C1 (TOEFL iBT 101/120)
+    - name: Fransızca
+      level: A2 (Evalang)
+    - name: İtalyanca
+      level: Başlangıç
+
+courses:
+  title: Dersler
+  intro: "Sorbonne Üniversitesi ve İstanbul Teknik Üniversitesi'nde aldığım dersler."
+  search_label: "Ders ara"
+  search_placeholder: "Ders adı veya koduyla ara"
+  no_results: "Aramanızla eşleşen ders yok."
+  su:
+    title: "Haberleşen Sistemler"
+    desc: "Yüksek lisans, Sorbonne Üniversitesi, 2025–2026."
+  ehb:
+    title: Elektronik ve Haberleşme Mühendisliği
+    desc: Lisans, İstanbul Teknik Üniversitesi, 2020–2025.
+  uck:
+    title: Uçak Mühendisliği
+    desc: Lisans (çift anadal), İstanbul Teknik Üniversitesi, 2020–2025.
+  names:
+    mu5ees02: "Bilgisayar Destekli Tasarım ve Mikrodalga Ölçüm Teknikleri"
+    mu5ees08: "Sayısal Haberleşme"
+    mu5ees04: "Elektromanyetik Uyumluluk"
+    mu5ees10: "Radar ve Anten Modelleme"
+    mat_103e: "Matematik I"
+    mat_104e: "Matematik II"
+    mat_271e: "Olasılık ve İstatistik"
+    mat_281e: "Lineer Cebir"
+    mat_210e: "Mühendislik Matematiği"
+    mat_202e: "Sayısal Yöntemler"
+    fiz_101e: "Fizik I"
+    fiz_102e: "Fizik II"
+    kim_101e: "Genel Kimya I"
+    ehb_211e: "Elektrik Devrelerinin Temelleri"
+    eef_232e: "Devre ve Sistem Analizi"
+    ehb_231e: "Elektronik I"
+    ehb_262e: "Elektronik II"
+    ehb_335e: "Analog Elektronik Devreler"
+    ehb_322e: "Sayısal Elektronik Devreler"
+    eef_205e: "Lojik Tasarıma Giriş"
+    ehb_324e: "Lojik Tasarım Laboratuvarı"
+    ehb_206e: "İşaret İşleme ve Doğrusal Sistemler"
+    ehb_315e: "Sayısal İşaret İşleme"
+    ehb_307e: "Haberleşme I"
+    ehb_308e: "Haberleşme II"
+    eef_212e: "Elektromanyetik Teori I"
+    ehb_337e: "Elektromanyetik Teori II"
+    ehb_362e: "Mikrodalga Mühendisliği"
+    ehb_456e: "Antenler"
+    ehb_417e: "RF Mikroelektronik"
+    ehb_451e: "Aktif Mikrodalga Devreleri"
+    ehb_464e: "Uydu Haberleşmesi"
+    eef_110e: "C Programlamaya Giriş"
+    ehb_208e: "Veri Yapıları ve Programlama"
+    ehb_328e: "İşaret İşleme için Makine Öğrenmesi"
+    ehb_440e: "Tıpta Bilgisayar Destekli Cihazlar"
+    ehb_420e: "Yapay Sinir Ağları"
+    mal_201e: "Malzeme Bilimi"
+    fiz_201e: "Modern Fizik"
+    kon_317e: "Kontrol Sistemleri"
+    ehb_334e: "Rastgele İşaretler ve Gürültü"
+    fra_101: "Fransızca I"
+    ita_101: "İtalyanca I"
+    eko_201e: "Ekonomi"
+    itb_094e: "Uluslararası İlişkiler ve Küreselleşme"
+    itb_214e: "Modern Orta Doğu"
+    ehb_4902e: "Bitirme Projesi"
+    uck_215e: "Havacılık ve Uzay Malzemeleri"
+    sta_201e: "Statik"
+    dnk_201e: "Dinamik"
+    uzb_112e: "CATIA ile Bilgisayar Destekli Çizim"
+    uck_207e: "Termodinamik"
+    akm_219e: "Akışkanlar Dinamiği"
+    muk_211e: "Mukavemet"
+    uzb_301e: "Ölçme Teknikleri"
+    uzb_310e: "Sıkıştırılabilir Akışların Aerodinamiği"
+    uck_304e: "Deneysel Mühendislik"
+    uck_421: "Jet İtki Sistemleri"
+    uck_322e: "Uçuş Mekaniği"
+    uck_305e: "Aerodinamik"
+    uck_423e: "Uçak Tasarımının Esasları I"
+    uck_424e: "Uçak Tasarımının Esasları II"
+    uzb_337e: "Havacılık ve Uzay Yapıları"
+    uzb_314e: "Isı Transferi"
+    uck_441e: "Uçuş Kararlılığı ve Kontrolü"
+    uck_4902: "Bitirme Projesi"
+
+
+publications:
+  title: Araştırma
+  theses_h: Tezler
+  theses:
+    - title: Bull's Eye Sızıntılı Dalga Anteninin Tasarımı ve Empedans Uyumlaması
+      venue: Yüksek lisans tezi, Haberleşen Sistemler, Sorbonne Üniversitesi / GeePs
+      year: "2026"
+    - title: Mikrodalga Görüntüleme ile Beynin İzlenmesi
+      venue: Lisans bitirme projesi, Elektronik ve Haberleşme Mühendisliği, İstanbul Teknik Üniversitesi
+      year: "2025"
+    - title: İnterdijital Kapasitör ile Faz Dizili Anten Tasarımı
+      venue: Lisans bitirme projesi, Uçak Mühendisliği, İstanbul Teknik Üniversitesi
+      year: "2025"
+  profiles_h: Profiller
+  scholar_desc: Atıflar ve dizinlenen yayınlar.
+  figshare_desc: Raporlar, tezler ve diğer araştırma çıktıları.
+
+photos:
+  title: Fotoğraflar
+  intro: Seyahatlerde ve evde çektiğim fotoğraflar. Nerede çekildiğini görmek için fotoğrafın üzerine gelin.
+  hint: Büyük görmek için fotoğrafa tıklayın.
+  cities:
+    istanbul: İstanbul
+    paris: Paris
+    geneva: Cenevre
+    lausanne: Lozan
+    prague: Prag
+    vienna: Viyana
+    amsterdam: Amsterdam
+    brussels: Brüksel
+    kayseri: Kayseri
+  places:
+    la_tour_zamansky: "Zamansky Kulesi"
+    cathedrale_notre_dame: "Notre-Dame Katedrali"
+    rumeli_hisari: "Rumeli Hisarı"
+    kucuksu_kasri: "Küçüksu Kasrı"
+    kuzguncuk: "Kuzguncuk"
+    hotel_de_la_paix: "Hotel de la Paix"
+    old_town: "Eski Şehir"
+    jardin_anglais: "İngiliz Bahçesi"
+    lake_geneva: "Cenevre Gölü"
+    ouchy: "Ouchy"
+    beau_rivage_palace: "Beau-Rivage Palace"
+    fener_rum_erkek_lisesi: "Fener Rum Erkek Lisesi"
+    fener_iskelesi: "Fener İskelesi"
+    prazsky_hrad: "Prag Kalesi"
+    celetna_ulice: "Celetná Caddesi"
+    vltava: "Vltava Nehri"
+    subway: "Metro"
+    nestroyplatz: "Nestroyplatz"
+    taskisla: "Taşkışla"
+    musee_du_louvre: "Louvre Müzesi"
+    tuileries: "Tuileries Bahçesi"
+    institut_de_france: "Institut de France"
+    royal_library: "Kraliyet Kütüphanesi"
+    musee_royal_de_l_armee: "Kraliyet Askeri Müzesi"
+    vondelpark: "Vondelpark"
+    museumplein: "Museumplein"
+    basilica_of_saint_nicholas: "Aziz Nikolaos Bazilikası"
+    erkilet_international_airport: "Erkilet Havalimanı"
+
+notfound:
+  title: Sayfa bulunamadı
+  text: Aradığınız sayfa mevcut değil ya da taşınmış.
+  home: Ana sayfaya dön

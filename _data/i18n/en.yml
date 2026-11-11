@@ -1,0 +1,369 @@
+# English (default). Other languages mirror this structure; missing keys fall back to English.
+nav:
+  home: Home
+  cv: CV
+  courses: Courses
+  publications: Research
+  photos: Photos
+
+ui:
+  skip: Skip to content
+  language: Language
+  theme_toggle: Toggle dark mode
+  main_nav: "Main"
+  photo: "Photo"
+  notes: Notes
+  close: Close
+  previous: Previous
+  next: Next
+  location: Rome, Italy
+
+home:
+  title: Home
+  hello: Burak Erdil Biçer
+  role: "Ph.D. student at Sapienza University of Rome"
+  dept: "<a href=\"https://diet.web.uniroma1.it/\" target=\"_blank\" rel=\"noopener\">Department of Information Engineering, Electronics and Telecommunications (DIET)</a>"
+  interests_h: "Research interests:"
+  interests: "antennas, metamaterials, applied electromagnetics, machine learning"
+  intro:
+    - "I am an electronics and communications engineer working on antennas, applied electromagnetics and wireless systems. From November 2026 I am a Ph.D. student in Information and Communications Technologies at <a href=\"https://www.uniroma1.it\" target=\"_blank\" rel=\"noopener\">Sapienza University of Rome</a>."
+    - "I hold an M.Sc. in Communicating Systems from <a href=\"https://www.sorbonne-universite.fr\" target=\"_blank\" rel=\"noopener\">Sorbonne Université</a> (Paris) and two B.Sc. degrees from <a href=\"https://www.itu.edu.tr\" target=\"_blank\" rel=\"noopener\">Istanbul Technical University</a>, in Electronics and Communications Engineering and in Aeronautical Engineering."
+    - "My master's research at GeePs (Paris) focused on the design and matching of a Ka-band Bull's Eye leaky-wave antenna. Earlier, I worked on microwave imaging for brain monitoring, phased-array antennas, biodegradable sensors, and machine-learning applications in computer vision and biosignal processing."
+  beyond: "Outside the lab I have been Editor in Chief of <a href=\"https://ari24.com\" target=\"_blank\" rel=\"noopener\">arı24</a>, Turkey's largest student media initiative, and a long-time <a href=\"https://www.worldcubeassociation.org/persons/2017BICE01\" target=\"_blank\" rel=\"noopener\">World Cube Association</a> competitor and organizer, with several Turkish national records. I enjoy travelling, photography and skiing, and I swam competitively at the Turkish National Championship in high school."
+  news_h: "News"
+  news:
+    - date: "2026-11"
+      text: "Started my Ph.D. in Information and Communications Technologies at Sapienza University of Rome, working with Prof. Davide Comite and Prof. Guido Valerio."
+    - date: "2026-07"
+      text: "Completed my master's thesis at GeePs on a Ka-band Bull's Eye leaky-wave antenna."
+    - date: "2026-02"
+      text: "Joined GeePs in Paris as a graduate research intern, working with Prof. Guido Valerio."
+    - date: "2025-09"
+      text: "Completed the ESoA course \"Exploiting Symmetries in Artificial Materials for Antenna Applications\" at Sorbonne Université."
+    - date: "2025-06"
+      text: "Presented my two graduation projects at ITU: microwave brain imaging and a phased array with an interdigital capacitor."
+
+cv:
+  title: Curriculum Vitae
+  sections:
+    education: Education
+    experience: Experience
+    projects: Academic projects
+    certifications: Certifications
+    activities: Activities
+    skills: Skills
+    languages: Languages
+  education:
+    - school: Sapienza University of Rome
+      degree: Ph.D. in Information and Communications Technologies (ICT)
+      period: Nov 2026 – Oct 2029
+      place: Rome, Italy
+    - school: Sorbonne Université – Faculté des Sciences et Ingénierie
+      degree: M.Sc. Communicating Systems · 16.48/20 · Mention Très Bien
+      period: 2025 – 2026
+      place: Paris, France
+    - school: Istanbul Technical University
+      degree: B.Sc. Electronics and Communications Engineering · 3.56/4.00
+      period: 2020 – 2025
+      place: Istanbul, Turkey
+      degree2: "B.Sc. Aeronautical Engineering (Double major) · 3.37/4.00"
+  experience:
+    - title: Graduate Research Intern
+      org: Laboratory of Electrical and Electronic Engineering of Paris (GeePs)
+      period: Feb 2026 – Jul 2026
+      place: Paris, France
+      bullets:
+        - Designed and characterized an all-metal corrugated Bull's Eye leaky-wave antenna operating across the 29.7–31.5 GHz Ka-band in CST Studio Suite and ANSYS HFSS, under the supervision of Prof. Guido Valerio.
+        - Implemented a semi-analytical, full-wave-assisted impedance-matching technique in MATLAB for the waveguide feed transition, designing capacitive irises without brute-force parameter sweeps.
+        - Developed a Python aperture-to-far-field toolkit linking near-field aperture data to radiated patterns, in close agreement with CST full-wave results across the band.
+        - Retrieved the complex propagation constant of the leaky mode through a dispersion-extraction procedure to enable frequency-dependent beam steering, and identified aperture-quality limitations (azimuthal resonances) through ring-masking and per-slot analyses, proposing arc-segmentation mitigation strategies.
+        - Attended the ESoA/GENIUS doctoral course "Exploiting Symmetries in Artificial Materials for Antenna Applications".
+    - title: Undergraduate Research Assistant
+      org: ITU Medical Devices Research & Application Lab
+      period: Sep 2024 – Jul 2025
+      place: Istanbul, Turkey
+      bullets:
+        - Led the design of a virtual prototype for continuous monitoring of intracranial hemorrhage using microwave imaging, with machine-learning solutions to overcome diffraction limits and enhance resolution.
+        - Performed numerical verification in ANSYS HFSS, CST and Altair Feko, and developed a Python neural-network model to improve image clarity.
+    - title: Undergraduate Research Assistant
+      org: ITU Aerospace Research Center (ITU-ARC)
+      period: Sep 2024 – Jun 2025
+      place: Istanbul, Turkey
+      bullets:
+        - Designed, simulated, fabricated and tested a 2.4 GHz phased-array antenna in HFSS to validate its beam-steering capability.
+        - Designed and iteratively optimized a passive interdigital capacitor (IDC) as the phase-shifting element in MATLAB.
+        - Validated the system by comparing the simulated (33.5°) and measured (30°) beam steer, confirming passive beam steering with the fabricated IDC.
+    - title: Machine Learning Engineering Intern
+      org: Baykar Technologies
+      period: Aug 2023 – Sep 2023
+      place: Istanbul, Turkey
+      bullets:
+        - Developed object detection, recognition and quality-control algorithms in Python with OpenCV and TensorFlow to improve production-line efficiency.
+    - title: Test Engineering Intern
+      org: Aselsan
+      period: Jun 2023 – Jul 2023
+      place: Ankara, Turkey
+      bullets:
+        - Built a long-range communication setup with LoRa E32 modules and Arduino Uno, and a C# interface to configure LoRa E32 parameters such as UART rate, parity and power.
+    - title: Undergraduate Research Assistant
+      org: Bountenna Antennas & Propagation Research Lab
+      period: Nov 2022 – Jun 2023
+      place: Istanbul, Turkey
+      bullets:
+        - Contributed to biodegradable sensor and phantom design for IoHT applications under the supervision of Assoc. Prof. Sema Dumanlı.
+        - Conducted a parametric study of a slot antenna in HFSS, investigating how slot length, substrate height and feed offset affect resonant frequency and bandwidth.
+        - Gained hands-on experience with RF measurement equipment such as VNAs and an anechoic chamber.
+        - Arranged academic talks and technical networking events as a member of the IEEE AP/MTT/EMC/ED Turkey Joint Chapter.
+    - title: Software Engineering Intern
+      org: Turkish Aerospace
+      period: Nov 2022 – May 2023
+      place: Istanbul, Turkey
+      bullets:
+        - Developed and tested aerospace software in C and C++, collaborating with engineers on avionics and systems components, simulations and debugging.
+        - Completed the SKY Experience Internship Program certifications in Machine Learning, Systems Engineering, Basic Airworthiness and Engineering Fundamentals.
+  projects:
+    - title: Design and Matching of a Bull's Eye Leaky-Wave Antenna
+      context: Communicating Systems master's project · GeePs
+      date: Jul 2026
+    - title: Monitoring of the Brain with Microwave Imaging
+      context: Electronics and Communications Engineering graduation project
+      date: Jun 2025
+    - title: Phased Array Antenna Design Using an Interdigital Capacitor
+      context: Aeronautical Engineering graduation project
+      date: Jun 2025
+    - title: Flower Recognition Using a Convolutional Neural Network
+      context: Neural Networks course
+      date: Jun 2024
+    - title: Dual-Band Circularly Polarized Annular Ring Patch Antenna
+      context: Antennas course
+      date: May 2024
+    - title: Machine Learning Models for Heart Attack Prediction
+      context: Neural Networks course
+      date: Jan 2024
+    - title: Two-Stage CMOS Operational Amplifier Design
+      context: Analog Electronics course
+      date: Jan 2024
+    - title: "Wearable Devices for Real-time Monitoring of Labor: Predictor of Preterm Labor"
+      context: Medical Devices course
+      date: Jun 2023
+    - title: Machine Learning Approaches in Bioengineering for Biosignal Processing
+      context: Machine Learning course
+      date: Jun 2023
+    - title: The Effects of the Physical Properties of a Slot Antenna
+      context: Bountenna Antennas & Propagation Research Lab
+      date: Feb 2023
+  certifications:
+    - title: Exploiting Symmetries in Artificial Materials for Antenna Applications
+      org: European School of Antennas
+      date: Sep 2025
+    - title: Evalang French Test (A2)
+      org: France Éducation International
+      date: Aug 2025
+    - title: "GRE: 315 (Q 168, V 147, AW 3.5)"
+      org: Educational Testing Service
+      date: Nov 2024
+    - title: "TOEFL iBT: 101/120 (CEFR C1)"
+      org: Educational Testing Service
+      date: Sep 2024
+    - title: Machine Learning Specialization
+      org: DeepLearning.AI
+      date: Sep 2023
+    - title: Advanced Learning Algorithms
+      org: DeepLearning.AI
+      date: Sep 2023
+    - title: Introduction to Deep Learning
+      org: Global AI Hub
+      date: Jun 2023
+    - title: Introduction to Machine Learning
+      org: Turkish Aerospace
+      date: May 2023
+  activities:
+    - title: Editor in Chief
+      org: arı24 Student Media
+      period: Sep 2022 – Jun 2024
+      place: Istanbul, Turkey
+      bullets:
+        - Ensured high-quality, relevant content for university students in the largest student media initiative in Turkey.
+        - Implemented editorial standards, created original content and managed timely reporting of campus events.
+    - title: Member
+      org: IEEE AP/MTT/EMC/ED Turkey Joint Chapter
+      period: Nov 2022 – Jun 2023
+      place: Istanbul, Turkey
+      bullets:
+        - Reached out to leading researchers and arranged academic talks.
+        - Helped organize technical sessions and networking events connecting students and researchers.
+    - title: Coordinator / Competitor
+      org: World Cube Association
+      period: Aug 2017 – Sep 2021
+      place: Istanbul, Turkey
+      bullets:
+        - Organized and competed in official WCA competitions around the world.
+        - Broke several Turkish national records, including in the 3x3 Rubik's Cube.
+  skills:
+    - label: Programming
+      items: Python, C, C++, C#, MATLAB
+    - label: RF design
+      items: ANSYS HFSS, CST Studio Suite, Altair Feko, Keysight ADS, Cadence AWR
+    - label: CAD / PCB
+      items: KiCad, Cadence, LTspice, SolidWorks, CATIA
+    - label: Measurement
+      items: VNA, anechoic chamber, RF test equipment
+  languages:
+    - name: Turkish
+      level: Native
+    - name: English
+      level: C1 (TOEFL iBT 101/120)
+    - name: French
+      level: A2 (Evalang)
+    - name: Italian
+      level: Beginner
+
+courses:
+  title: Courses
+  intro: "Courses I completed at Sorbonne Université and Istanbul Technical University."
+  search_label: "Search courses"
+  search_placeholder: "Search by course name or code"
+  no_results: "No courses match your search."
+  su:
+    title: "Communicating Systems"
+    desc: "M.Sc., Sorbonne Université, 2025–2026."
+  ehb:
+    title: Electronics and Communications Engineering
+    desc: B.Sc., Istanbul Technical University, 2020–2025.
+  uck:
+    title: Aeronautical Engineering
+    desc: B.Sc. (double major), Istanbul Technical University, 2020–2025.
+  names:
+    mu5ees02: "CAD and Microwave Measurement Techniques"
+    mu5ees08: "Digital Communications"
+    mu5ees04: "Electromagnetic Compatibility"
+    mu5ees10: "Radar and Antenna Modelling"
+    mat_103e: "Mathematics I"
+    mat_104e: "Mathematics II"
+    mat_271e: "Probability and Statistics"
+    mat_281e: "Linear Algebra"
+    mat_210e: "Engineering Mathematics"
+    mat_202e: "Numerical Methods"
+    fiz_101e: "Physics I"
+    fiz_102e: "Physics II"
+    kim_101e: "General Chemistry I"
+    ehb_211e: "Basics of Electrical Circuits"
+    eef_232e: "Circuit and System Analysis"
+    ehb_231e: "Electronics I"
+    ehb_262e: "Electronics II"
+    ehb_335e: "Analog Electronic Circuits"
+    ehb_322e: "Digital Electronic Circuits"
+    eef_205e: "Introduction to Logic Design"
+    ehb_324e: "Logic Design Lab."
+    ehb_206e: "Signal Processing & Linear Systems"
+    ehb_315e: "Digital Signal Processing"
+    ehb_307e: "Communications I"
+    ehb_308e: "Communications II"
+    eef_212e: "Theory of Electromagnetics I"
+    ehb_337e: "Theory of Electromagnetics II"
+    ehb_362e: "Microwave Engineering"
+    ehb_456e: "Antennas"
+    ehb_417e: "RF Microelectronics"
+    ehb_451e: "Active Microwave Circuits"
+    ehb_464e: "Satellite Communications"
+    eef_110e: "Introduction to C"
+    ehb_208e: "Data Structures & Programming"
+    ehb_328e: "Machine Learning for Signal Processing"
+    ehb_440e: "Computer Aided Devices in Medicine"
+    ehb_420e: "Artificial Neural Networks"
+    mal_201e: "Materials Science"
+    fiz_201e: "Modern Physics"
+    kon_317e: "Control Systems"
+    ehb_334e: "Random Signals and Noise"
+    fra_101: "French I"
+    ita_101: "Italian I"
+    eko_201e: "Economics"
+    itb_094e: "International Relations and Globalization"
+    itb_214e: "The Modern Middle East"
+    ehb_4902e: "Graduation Project"
+    uck_215e: "Aerospace Materials"
+    sta_201e: "Statics"
+    dnk_201e: "Dynamics"
+    uzb_112e: "Computer Aided Drafting with CATIA"
+    uck_207e: "Thermodynamics"
+    akm_219e: "Fluid Dynamics"
+    muk_211e: "Strength of Materials"
+    uzb_301e: "Measurement Techniques"
+    uzb_310e: "Compressible Aerodynamics"
+    uck_304e: "Experimental Engineering"
+    uck_421: "Jet Propulsion"
+    uck_322e: "Flight Mechanics"
+    uck_305e: "Aerodynamics"
+    uck_423e: "Principles of Aircraft Design I"
+    uck_424e: "Principles of Aircraft Design II"
+    uzb_337e: "Aerospace Structures"
+    uzb_314e: "Heat Transfer"
+    uck_441e: "Flight Stability and Control"
+    uck_4902: "Graduation Project"
+
+
+publications:
+  title: Research
+  theses_h: Theses
+  theses:
+    - title: Design and Matching of a Bull's Eye Leaky-Wave Antenna
+      venue: M.Sc. thesis, Communicating Systems, Sorbonne Université / GeePs
+      year: "2026"
+    - title: Monitoring of the Brain with Microwave Imaging
+      venue: B.Sc. graduation project, Electronics and Communications Engineering, Istanbul Technical University
+      year: "2025"
+    - title: Phased Array Antenna Design Using an Interdigital Capacitor
+      venue: B.Sc. graduation project, Aeronautical Engineering, Istanbul Technical University
+      year: "2025"
+  profiles_h: Profiles
+  scholar_desc: Citations and indexed publications.
+  figshare_desc: Reports, theses and other research outputs.
+
+photos:
+  title: Photos
+  intro: Photographs I have taken while travelling and at home. Hover over a photo to see where it was taken.
+  hint: Click a photo to view it larger.
+  cities:
+    istanbul: Istanbul
+    paris: Paris
+    geneva: Geneva
+    lausanne: Lausanne
+    prague: Prague
+    vienna: Vienna
+    amsterdam: Amsterdam
+    brussels: Brussels
+    kayseri: Kayseri
+  places:
+    la_tour_zamansky: "La Tour Zamansky"
+    cathedrale_notre_dame: "Cathédrale Notre-Dame"
+    rumeli_hisari: "Rumeli Hisarı"
+    kucuksu_kasri: "Küçüksu Kasrı"
+    kuzguncuk: "Kuzguncuk"
+    hotel_de_la_paix: "Hotel de la Paix"
+    old_town: "Old Town"
+    jardin_anglais: "Jardin Anglais"
+    lake_geneva: "Lake Geneva"
+    ouchy: "Ouchy"
+    beau_rivage_palace: "Beau-Rivage Palace"
+    fener_rum_erkek_lisesi: "Fener Rum Erkek Lisesi"
+    fener_iskelesi: "Fener İskelesi"
+    prazsky_hrad: "Pražský Hrad"
+    celetna_ulice: "Celetná Ulice"
+    vltava: "Vltava"
+    subway: "Subway"
+    nestroyplatz: "Nestroyplatz"
+    taskisla: "Taşkışla"
+    musee_du_louvre: "Musée du Louvre"
+    tuileries: "Tuileries"
+    institut_de_france: "Institut de France"
+    royal_library: "Royal Library"
+    musee_royal_de_l_armee: "Musée Royal de l'Armée"
+    vondelpark: "Vondelpark"
+    museumplein: "Museumplein"
+    basilica_of_saint_nicholas: "Basilica of Saint Nicholas"
+    erkilet_international_airport: "Erkilet International Airport"
+
+notfound:
+  title: Page not found
+  text: The page you are looking for does not exist or has moved.
+  home: Back to home

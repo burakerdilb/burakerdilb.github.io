@@ -1,0 +1,9 @@
+---
+title: Page not found
+permalink: /404.html
+i18n_title: notfound.title
+sitemap: false
+---
+{%- assign t = site.data.i18n.en.notfound -%}
+<p class="lead" data-i18n="notfound.text">{{ t.text }}</p>
+<p><a class="button" href="{{ '/' | relative_url }}" data-i18n="notfound.home">{{ t.home }}</a></p>

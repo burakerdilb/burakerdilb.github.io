@@ -1,0 +1,181 @@
+# Photo gallery. "place" and "city" are shown on hover; files live in images/photos/.
+- file: img-6487.jpg
+  place: "La Tour Zamansky"
+  key: la_tour_zamansky
+  city: "Paris"
+  date: 2025-09-08
+  orientation: portrait
+- file: img-5686.jpg
+  place: "Cathédrale Notre-Dame"
+  key: cathedrale_notre_dame
+  city: "Paris"
+  date: 2025-08-24
+  orientation: portrait
+- file: dsc07290.jpg
+  place: "Rumeli Hisarı"
+  key: rumeli_hisari
+  city: "Istanbul"
+  date: 2025-05-19
+  orientation: portrait
+- file: img-3567.jpg
+  place: "Küçüksu Kasrı"
+  key: kucuksu_kasri
+  city: "Istanbul"
+  date: 2025-05-19
+  orientation: portrait
+- file: dsc07384.jpg
+  place: "Kuzguncuk"
+  key: kuzguncuk
+  city: "Istanbul"
+  date: 2025-05-19
+  orientation: portrait
+- file: img-3351.jpg
+  place: "Hotel de la Paix"
+  key: hotel_de_la_paix
+  city: "Geneva"
+  date: 2025-02-28
+  orientation: portrait
+- file: img-3418.jpg
+  place: "Old Town"
+  key: old_town
+  city: "Geneva"
+  date: 2025-02-28
+  orientation: portrait
+- file: img-3424.jpg
+  place: "Old Town"
+  key: old_town
+  city: "Geneva"
+  date: 2025-02-28
+  orientation: portrait
+- file: img-3370.jpg
+  place: "Jardin Anglais"
+  key: jardin_anglais
+  city: "Geneva"
+  date: 2025-02-28
+  orientation: portrait
+- file: img-3300.jpg
+  place: "Lake Geneva"
+  key: lake_geneva
+  city: "Lausanne"
+  date: 2025-02-26
+  orientation: portrait
+- file: img-3313.jpg
+  place: "Ouchy"
+  key: ouchy
+  city: "Lausanne"
+  date: 2025-02-26
+  orientation: portrait
+- file: img-3339.jpg
+  place: "Beau-Rivage Palace"
+  key: beau_rivage_palace
+  city: "Lausanne"
+  date: 2025-02-26
+  orientation: portrait
+- file: img-3216.jpg
+  place: "Fener Rum Erkek Lisesi"
+  key: fener_rum_erkek_lisesi
+  city: "Istanbul"
+  date: 2025-01-26
+  orientation: portrait
+- file: img-3211.jpg
+  place: "Fener İskelesi"
+  key: fener_iskelesi
+  city: "Istanbul"
+  date: 2025-01-26
+  orientation: portrait
+- file: img-3126.jpg
+  place: "Pražský Hrad"
+  key: prazsky_hrad
+  city: "Prague"
+  date: 2024-06-25
+  orientation: portrait
+- file: img-3049.jpg
+  place: "Celetná Ulice"
+  key: celetna_ulice
+  city: "Prague"
+  date: 2024-06-24
+  orientation: portrait
+- file: img-3062.jpg
+  place: "Vltava"
+  key: vltava
+  city: "Prague"
+  date: 2024-06-24
+  orientation: portrait
+- file: img-2967.jpg
+  place: "Subway"
+  key: subway
+  city: "Vienna"
+  date: 2024-06-22
+  orientation: portrait
+- file: img-2981.jpg
+  place: "Nestroyplatz"
+  key: nestroyplatz
+  city: "Vienna"
+  date: 2024-06-22
+  orientation: portrait
+- file: img-0580.jpg
+  place: "Taşkışla"
+  key: taskisla
+  city: "Istanbul"
+  date: 2024-04-05
+  orientation: portrait
+- file: img-0546.jpg
+  place: "Taşkışla"
+  key: taskisla
+  city: "Istanbul"
+  date: 2024-04-05
+  orientation: portrait
+- file: img-6260.jpg
+  place: "Musée du Louvre"
+  key: musee_du_louvre
+  city: "Paris"
+  date: 2024-02-05
+  orientation: portrait
+- file: img-6072.jpg
+  place: "Tuileries"
+  key: tuileries
+  city: "Paris"
+  date: 2024-02-05
+  orientation: portrait
+- file: img-6193-2.jpg
+  place: "Institut de France"
+  key: institut_de_france
+  city: "Paris"
+  date: 2024-02-05
+  orientation: portrait
+- file: img-5828.jpg
+  place: "Royal Library"
+  key: royal_library
+  city: "Brussels"
+  date: 2024-02-03
+  orientation: portrait
+- file: img-5880.jpg
+  place: "Musée Royal de l'Armée"
+  key: musee_royal_de_l_armee
+  city: "Brussels"
+  date: 2024-02-03
+  orientation: portrait
+- file: img-5748.jpg
+  place: "Vondelpark"
+  key: vondelpark
+  city: "Amsterdam"
+  date: 2024-02-02
+  orientation: portrait
+- file: img-5638.jpg
+  place: "Museumplein"
+  key: museumplein
+  city: "Amsterdam"
+  date: 2024-02-02
+  orientation: portrait
+- file: img-5398.jpg
+  place: "Basilica of Saint Nicholas"
+  key: basilica_of_saint_nicholas
+  city: "Amsterdam"
+  date: 2024-02-01
+  orientation: portrait
+- file: img-5272.jpg
+  place: "Erkilet International Airport"
+  key: erkilet_international_airport
+  city: "Kayseri"
+  date: 2024-01-29
+  orientation: portrait
